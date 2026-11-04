@@ -109,3 +109,7 @@ La recuperación no envía correos: es una implementación local documentada. No
 ## Actualidad 2026
 
 Se añadió una sección con resultados recientes, próximos encuentros de2026, tablas deportivas, líderes de goles/asistencias y comparativas informativas de cuotas. Son consultas web fechadas al04/11/2026 con fuentes, no feeds en vivo. Ver [alcance y límites](docs/ACTUALIDAD-2026.md).
+
+## Estado y QR de salas
+
+Consulta el [estado real de cumplimiento y pendientes](docs/CUMPLIMIENTO.md). Cada sala ofrece QR de invitación generado localmente, enlace y descarga SVG. El QR conlocalhost funciona en el mismo equipo; acceso desde teléfono requiere configuración de red local.

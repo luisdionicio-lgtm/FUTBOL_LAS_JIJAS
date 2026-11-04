@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "encodedUrl": "http://localhost:8080/?invite=ABCDEF123456",
+  "render": "SVG with quiet zone4, correctionM",
+  "download": "SVG client-side",
+  "limitation": "Render and compilation verified; no camera scan or browser UI verification"
+}

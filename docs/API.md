@@ -40,3 +40,9 @@ Base: `http://localhost:8080/api`. JSON. Cookies HttpOnly con `credentials: same
 400 validación, 401 falta sesión, 403 permisos/origen, 404 no existe, 409 duplicado/plazo cerrado, 429 límite, 502 error externo, 503 token ausente. Errores inesperados devuelven mensaje genérico y log estructurado, sin claves.
 
 Recuperación: solicitar desde acceso; administrador copia enlace desde usuarios; el titular abre `/?reset=TOKEN` y fija contraseña. Token hash en DB, caduca en 15 minutos y es de un solo uso. Redis conserva temporalmente el valor para entrega local. Sin correo saliente.
+
+## Invitación QR
+
+Cada sala muestra un QR SVG generado localmente con el mismo enlace `/?invite=CODIGO`, sin enviar el código a un servicio de QR externo. Puede copiarse el enlace o descargarse el SVG. El usuario debe iniciar sesión y confirmar el ingreso; el QR no evade membresías ni permisos. Después de iniciar sesión se recupera la invitación pendiente del URL.
+
+La exposición de Docker sigue limitada a127.0.0.1. Un QR conlocalhost no puede abrir el servidor desde un teléfono; acceso móvil requiere configuración explícita de red local y APP_ORIGIN coherente. No se cambió la exposición automáticamente.

@@ -1,0 +1,12 @@
+import React,{useRef,useState} from 'react';
+import {QRCodeSVG} from 'qrcode.react';
+import {Copy,Download,QrCode,Check,Users} from 'lucide-react';
+export function invitationUrl(origin:string,code:string){const url=new URL('/',origin);url.searchParams.set('invite',code);return url.toString();}
+export default function RoomInvitation({room}:{room:{name:string;code:string}}){
+ const svg=useRef<SVGSVGElement>(null),[copied,setCopied]=useState(false);
+ const url=invitationUrl(location.origin,room.code);
+ const loopback=['localhost','127.0.0.1','[::1]'].includes(location.hostname);
+ async function copy(){try{await navigator.clipboard.writeText(url);setCopied(true);setTimeout(()=>setCopied(false),3000);}catch{setCopied(false);}}
+ function download(){if(!svg.current)return;const data=new XMLSerializer().serializeToString(svg.current);const blob=new Blob(['<?xml version="1.0" encoding="UTF-8"?>\n',data],{type:'image/svg+xml;charset=utf-8'});const objectUrl=URL.createObjectURL(blob);const a=document.createElement('a');a.href=objectUrl;a.download='LASJIJAS-invitacion-'+room.code+'.svg';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(objectUrl),1000);}
+ return <section className="room-invitation" aria-label="Invitación de la sala"><div className="room-qr"><QRCodeSVG ref={svg} value={url} size={208} level="M" marginSize={4} bgColor="#ffffff" fgColor="#071a35" title={'Invitación a '+room.name}/></div><div className="room-invitation-content"><span className="eyebrow"><QrCode size={14}/> INVITA A TU EQUIPO</span><h3>Escanea y entra a {room.name}</h3><p>Abre el enlace, inicia sesión y confirma que quieres unirte. También puedes ingresar el código en Salas.</p><label>Código de invitación<input readOnly value={room.code} aria-label="Código de invitación de la sala"/></label><label>Enlace de invitación<input readOnly value={url} aria-label="Enlace de invitación de la sala"/></label><div className="room-qr-actions"><button className="primary" onClick={copy}>{copied?<Check size={16}/>:<Copy size={16}/>} {copied?'Copiado':'Copiar enlace'}</button><button className="secondary" onClick={download}><Download size={16}/>Descargar QR</button></div>{loopback&&<p className="room-qr-local">Este QR apunta a localhost: funciona en este equipo. Para escanearlo desde un celular se necesita acceso al servidor por la misma red local; esta entrega mantiene el servidor restringido al equipo.</p>}</div></section>;
+}
