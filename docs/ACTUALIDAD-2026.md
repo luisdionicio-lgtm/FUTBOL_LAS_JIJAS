@@ -37,3 +37,5 @@ Las vistas de actualidad comparten el sistema deportivo del dashboard: azul noch
 El catálogo `frontend/public/data/section-icons.json` resuelve nombres alternativos del mismo club sin cambiar los datos publicados. Los archivos se guardan localmente para evitar depender del hotlink. La procedencia y cobertura se documentan en `docs/section-icon-sources.json`. Las imágenes conservan derechos de sus titulares.
 
 Si una foto no está disponible o falla al cargar, se muestra un icono de persona; si falta un escudo, un identificador neutral con iniciales. Ningún sustituto se presenta como fotografía o emblema oficial. Los logos de liga usan los recursos ya verificados del proyecto.
+
+**Aclaración de alcance del usuario (04/11/2026):** no se utilizará AWS ni la API deportiva. La aplicación corre en Docker Desktop local y utiliza información consultada en la web con fuente y fecha. Las menciones anteriores a la API describen el adaptador inicial, no un requisito vigente ni un pendiente.

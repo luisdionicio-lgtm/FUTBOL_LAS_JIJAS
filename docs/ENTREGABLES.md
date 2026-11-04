@@ -10,3 +10,5 @@
 |6|Cinco reglas de puntuación|src/scoring.ts, configuración exclusiva/acumulativa y pruebas de bordes|
 
 Decisión de alcance: Word describe un ejercicio sobre Mundial; el prompt del usuario lo adapta a seis ligas. Se implementan las seis ligas solicitadas, preservando las cinco reglas, salas y seis entregables. Se excluye AWS por instrucción explícita; Docker Desktop es el entorno único. El diseño se inspira en la maqueta adjunta, con recursos fotográficos reales y sin imágenes generadas por IA en la entrega.
+
+**Aclaración de alcance del usuario (04/11/2026):** no se utilizará AWS ni la API deportiva. La aplicación corre en Docker Desktop local y utiliza información consultada en la web con fuente y fecha. Las menciones anteriores a la API describen el adaptador inicial, no un requisito vigente ni un pendiente.

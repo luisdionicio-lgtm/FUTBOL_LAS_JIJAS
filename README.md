@@ -44,17 +44,9 @@ Se puede cambiar `DEMO_PASSWORD` antes del primer arranque. El seed no cambia co
 
 Sin token, los encuentros de ejemplo son **simulados**, con fechas generadas en el primer seed. Nunca se presentan como calendario oficial. Los logos y las fotos reales son independientes de esos partidos simulados. Las fichas oficiales se guardan como consultas fechadas y no garantizan una actualización continua.
 
-Configura tu token **localmente**, sin subirlo al repositorio:
+**Alcance vigente: solo local, sin AWS y sin API deportiva.** Los resultados, programación, tablas y líderes de Actualidad 2026 proceden de consultas web verificadas con fuentes y fecha. No se necesita token ni se exige probar football-data.org. El código del adaptador inicial se conserva como implementación anterior, fuera del flujo acordado; no debe presentarse como requisito pendiente.
 
-```dotenv
-FOOTBALL_DATA_TOKEN=tu_token
-DEMO_MODE=true
-SCORE_MODE=exclusive
-```
-
-Después ejecuta `docker compose up -d --force-recreate backend` y entra como administrador. Usa un botón de sincronización por vez. La API v4 se consulta desde el servidor: el token nunca llega al navegador. Caché compartida de 5 minutos y una consulta externa cada 7,5 segundos como máximo. Los errores quedan en auditoría; no se sustituyen datos oficiales por resultados inventados.
-
-football-data.org incluye las cinco competiciones europeas en su cobertura publicada. **Liga 1 de Perú no figura**: utiliza la importación administrativa con URL de origen y auditoría. Los planes tienen límites y no todos incluyen plantillas, fotos o estadísticas avanzadas. Los campos faltantes se muestran como `—`. Consulta [fuentes y límites](docs/DATOS.md).
+La consulta actual guardada tiene corte del **4 de noviembre de 2026**. Información actual consultada no equivale a actualización automática: se debe renovar la consulta para incorporar partidos posteriores. Los fixtures educativos de pronósticos siguen etiquetados como demostración; la sección informativa contiene los datos web publicados. Consulta [fuentes y límites](docs/DATOS.md) y [Actualidad 2026](docs/ACTUALIDAD-2026.md).
 
 ## Puntuación configurable
 

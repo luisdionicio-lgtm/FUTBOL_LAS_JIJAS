@@ -12,11 +12,10 @@
 | Cinco reglas | Motor servidor con anticipación, racha y modo base configurable; límites y ambigüedad matemática documentados |
 | Salas e invitaciones | Código, enlace, QR local descargable, ingreso, ranking, edición y control de miembros |
 
-La adaptación de Mundial a seis ligas y la exclusión de AWS fueron instrucciones explícitas del usuario. El QR no modifica el acceso de red: `localhost` solo abre en la computadora donde corre Docker. No se certifica una calificación ni aceptación por el docente.
+La adaptación de Mundial a seis ligas y la exclusión de AWS y de la API deportiva fueron instrucciones explícitas del usuario. No se requieren pruebas de AWS ni integración/pruebas autenticadas con football-data.org para este alcance. La fuente acordada es información actual consultada en la web, con enlaces y fecha de verificación. El QR no modifica el acceso de red: `localhost` solo abre en la computadora donde corre Docker. No se certifica una calificación ni aceptación por el docente.
 
-## Alcance ampliado del prompt: límites pendientes
+## Límites reales dentro del alcance local acordado
 
-- **API autenticada:** no se recibió FOOTBALL_DATA_TOKEN. El adaptador existe, pero no se comprobó una sincronización real autenticada ni la cobertura efectiva del plan.
 - **Actualización continua:** la actualidad deportiva y las cuotas son consultas web fechadas, no feeds en vivo ni sincronización automática programada. Hay que renovar y verificar los snapshots.
 - **Equipos y plantillas:** las tablas incluyen114clubes; las plantillas de17jugadores están completas solo en12clubes de referencia. No hay plantilla de17por cada club de las seis ligas. Algunas fotos son de archivo y20líderes estadísticos no tienen retrato verificado.
 - **Pruebas UI:** hubo revisión inicial de flujos y responsive; las últimas ampliaciones no se revisaron visualmente porque el navegador local quedó deshabilitado. No existe una suite E2E automatizada completa para todas las pantallas.
@@ -26,4 +25,4 @@ La adaptación de Mundial a seis ligas y la exclusión de AWS fueron instruccion
 - **Puntuación:** modo exclusivo prioriza ganador sobre diferencia, por lo que diferencia firmada correcta queda absorbida; modo acumulativo permite3+2. El usuario puede adaptar la interpretación a su docente. Se toma última modificación para anticipación, se permite editar hasta inicio y últimos10min solo base.
 - **Apuestas:** módulo informativo añadido por instrucción posterior, sin dinero ni transacciones. Cuotas UK no verificadas para disponibilidad en Perú.
 
-Conclusión: los entregables centrales están implementados y cuentan con evidencia local. No afirmar que el100%del prompt amplio esté completado o probado. Esta lista permite cerrar cada pendiente con evidencia real.
+Conclusión: los entregables centrales están implementados y cuentan con evidencia local. AWS y la API deportiva están fuera del alcance y no son pendientes. Los límites restantes se detallan arriba; la documentación no implica que la consulta web se actualice por sí sola.

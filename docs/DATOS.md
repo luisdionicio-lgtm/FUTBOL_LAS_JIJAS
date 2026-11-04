@@ -21,3 +21,5 @@ No se atribuyen equipos de demostración a una temporada actual sin sincronizaci
 ## Actualización
 
 La sincronización es explícita desde Administración; la caché dura cinco minutos. No hay cron externo ni descarga automática en background. El proveedor aplica una pausa compartida de 7,5 segundos antes de otra llamada no cacheada. En 429/403/5xx se informa el error y se preservan datos anteriores. No se probó una respuesta autenticada del proveedor porque no se dispone de token. Las fotos guardadas funcionan sin acceso a sus servidores durante la demostración; las fuentes y enlaces sí requieren Internet.
+
+**Aclaración de alcance del usuario (04/11/2026):** no se utilizará AWS ni la API deportiva. La aplicación corre en Docker Desktop local y utiliza información consultada en la web con fuente y fecha. Las menciones anteriores a la API describen el adaptador inicial, no un requisito vigente ni un pendiente.
