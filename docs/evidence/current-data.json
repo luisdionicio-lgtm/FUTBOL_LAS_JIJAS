@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "matches": 60,
+  "oddsComparisons": 6,
+  "quotes": 18,
+  "tables": [
+    {
+      "league": "PL",
+      "rows": 20,
+      "partial": false,
+      "leaders": 6
+    },
+    {
+      "league": "PD",
+      "rows": 20,
+      "partial": false,
+      "leaders": 7
+    },
+    {
+      "league": "SA",
+      "rows": 20,
+      "partial": false,
+      "leaders": 7
+    },
+    {
+      "league": "BL1",
+      "rows": 18,
+      "partial": false,
+      "leaders": 6
+    },
+    {
+      "league": "FL1",
+      "rows": 18,
+      "partial": false,
+      "leaders": 4
+    },
+    {
+      "league": "PE1",
+      "rows": 18,
+      "partial": false,
+      "leaders": 3
+    }
+  ]
+}

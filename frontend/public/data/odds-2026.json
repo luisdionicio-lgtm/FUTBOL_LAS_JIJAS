@@ -1,0 +1,337 @@
+{
+  "asOf": "2026-11-04",
+  "observedAt": "2026-11-04T14:54:01Z",
+  "timezone": "America/Lima",
+  "mode": "sourced-snapshot",
+  "comparisons": [
+    {
+      "event": "Everton — Coventry City",
+      "leagueCode": "PL",
+      "kickoff": "2026-11-06T20:00:00Z",
+      "date": "2026-11-06",
+      "market": "1X2",
+      "selection": "Everton",
+      "period": "90 minutos + descuento; sin prórroga",
+      "quotes": [
+        {
+          "bookmaker": "Unibet",
+          "odds": 1.727273,
+          "originalOdds": "8/11",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        },
+        {
+          "bookmaker": "bet365",
+          "odds": 1.7,
+          "originalOdds": "7/10",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        },
+        {
+          "bookmaker": "William Hill",
+          "odds": 1.7,
+          "originalOdds": "7/10",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        }
+      ],
+      "status": "prematch",
+      "notes": "Cuotas publicadas para Reino Unido, convertidas de fracción a decimal. Consulta fechada; no son precios en vivo ni acreditan disponibilidad en Perú."
+    },
+    {
+      "event": "Everton — Coventry City",
+      "leagueCode": "PL",
+      "kickoff": "2026-11-06T20:00:00Z",
+      "date": "2026-11-06",
+      "market": "1X2",
+      "selection": "Empate",
+      "period": "90 minutos + descuento; sin prórroga",
+      "quotes": [
+        {
+          "bookmaker": "bet365",
+          "odds": 4.0,
+          "originalOdds": "3/1",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        },
+        {
+          "bookmaker": "Betfred",
+          "odds": 4.0,
+          "originalOdds": "3/1",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        },
+        {
+          "bookmaker": "Betfair",
+          "odds": 3.9,
+          "originalOdds": "29/10",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        }
+      ],
+      "status": "prematch",
+      "notes": "Cuotas publicadas para Reino Unido, convertidas de fracción a decimal. Consulta fechada; no son precios en vivo ni acreditan disponibilidad en Perú."
+    },
+    {
+      "event": "Leeds United — Tottenham",
+      "leagueCode": "PL",
+      "kickoff": "2026-11-07T12:30:00Z",
+      "date": "2026-11-07",
+      "market": "1X2",
+      "selection": "Leeds United",
+      "period": "90 minutos + descuento; sin prórroga",
+      "quotes": [
+        {
+          "bookmaker": "bet365",
+          "odds": 2.625,
+          "originalOdds": "13/8",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        },
+        {
+          "bookmaker": "Sky Bet",
+          "odds": 2.6,
+          "originalOdds": "8/5",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        },
+        {
+          "bookmaker": "Betway",
+          "odds": 2.6,
+          "originalOdds": "8/5",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        }
+      ],
+      "status": "prematch",
+      "notes": "Cuotas publicadas para Reino Unido, convertidas de fracción a decimal. Consulta fechada; no son precios en vivo ni acreditan disponibilidad en Perú."
+    },
+    {
+      "event": "Arsenal — Hull City",
+      "leagueCode": "PL",
+      "kickoff": "2026-11-07T15:00:00Z",
+      "date": "2026-11-07",
+      "market": "1X2",
+      "selection": "Hull City",
+      "period": "90 minutos + descuento; sin prórroga",
+      "quotes": [
+        {
+          "bookmaker": "BoyleSports",
+          "odds": 19.0,
+          "originalOdds": "18/1",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        },
+        {
+          "bookmaker": "William Hill",
+          "odds": 17.0,
+          "originalOdds": "16/1",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        },
+        {
+          "bookmaker": "Betfred",
+          "odds": 17.0,
+          "originalOdds": "16/1",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        }
+      ],
+      "status": "prematch",
+      "notes": "Cuotas publicadas para Reino Unido, convertidas de fracción a decimal. Consulta fechada; no son precios en vivo ni acreditan disponibilidad en Perú."
+    },
+    {
+      "event": "Fulham — Newcastle",
+      "leagueCode": "PL",
+      "kickoff": "2026-11-07T15:00:00Z",
+      "date": "2026-11-07",
+      "market": "1X2",
+      "selection": "Newcastle",
+      "period": "90 minutos + descuento; sin prórroga",
+      "quotes": [
+        {
+          "bookmaker": "Unibet",
+          "odds": 3.6,
+          "originalOdds": "13/5",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        },
+        {
+          "bookmaker": "bet365",
+          "odds": 3.4,
+          "originalOdds": "12/5",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        },
+        {
+          "bookmaker": "Sky Bet",
+          "odds": 3.4,
+          "originalOdds": "12/5",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        }
+      ],
+      "status": "prematch",
+      "notes": "Cuotas publicadas para Reino Unido, convertidas de fracción a decimal. Consulta fechada; no son precios en vivo ni acreditan disponibilidad en Perú."
+    },
+    {
+      "event": "Nottingham Forest — Manchester City",
+      "leagueCode": "PL",
+      "kickoff": "2026-11-07T17:30:00Z",
+      "date": "2026-11-07",
+      "market": "1X2",
+      "selection": "Manchester City",
+      "period": "90 minutos + descuento; sin prórroga",
+      "quotes": [
+        {
+          "bookmaker": "William Hill",
+          "odds": 1.727273,
+          "originalOdds": "8/11",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        },
+        {
+          "bookmaker": "Unibet",
+          "odds": 1.727273,
+          "originalOdds": "8/11",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        },
+        {
+          "bookmaker": "bet365",
+          "odds": 1.7,
+          "originalOdds": "7/10",
+          "sourceUrl": "https://www.compare.bet/betting/odds/football",
+          "observedAt": "2026-11-04T14:54:01Z"
+        }
+      ],
+      "status": "prematch",
+      "notes": "Cuotas publicadas para Reino Unido, convertidas de fracción a decimal. Consulta fechada; no son precios en vivo ni acreditan disponibilidad en Perú."
+    }
+  ],
+  "marketCatalog": [
+    {
+      "id": "1x2",
+      "name": "Resultado 1X2",
+      "type": "Clásica",
+      "description": "Local, empate o visitante al final del tiempo reglamentario.",
+      "sourceUrl": "https://www.oddschecker.com/football/english/premier-league",
+      "comparisonAvailable": true
+    },
+    {
+      "id": "double-chance",
+      "name": "Doble oportunidad",
+      "type": "Clásica",
+      "description": "Dos resultados cubiertos: 1X, X2 o 12.",
+      "sourceUrl": "https://www.oddschecker.com/football/english/premier-league",
+      "comparisonAvailable": false
+    },
+    {
+      "id": "over-under",
+      "name": "Más / menos de 2,5 goles",
+      "type": "Clásica",
+      "description": "Total de goles respecto de una línea; 2,5 no admite empate.",
+      "sourceUrl": "https://www.oddschecker.com/football/english/premier-league",
+      "comparisonAvailable": false
+    },
+    {
+      "id": "btts",
+      "name": "Ambos marcan",
+      "type": "Clásica",
+      "description": "Si ambos equipos anotan al menos una vez.",
+      "sourceUrl": "https://www.oddschecker.com/football/english/premier-league",
+      "comparisonAvailable": false
+    },
+    {
+      "id": "draw-no-bet",
+      "name": "Empate no válido",
+      "type": "Clásica",
+      "description": "Mercado de ganador con devolución al empatar, según reglas de la casa.",
+      "sourceUrl": "https://www.oddschecker.com/football/english/premier-league",
+      "comparisonAvailable": false
+    },
+    {
+      "id": "shots-on-target",
+      "name": "Remates a puerta de jugador",
+      "type": "Estadística",
+      "description": "Cantidad de remates a puerta del jugador frente a la línea indicada.",
+      "sourceUrl": "https://help.bet365.com/s/en-bg/sports/football-betting-markets",
+      "comparisonAvailable": false
+    },
+    {
+      "id": "player-assists",
+      "name": "Asistencias de jugador",
+      "type": "Estadística",
+      "description": "Asistencias reconocidas por el proveedor y las reglas de liquidación.",
+      "sourceUrl": "https://help.bet365.com/s/en/sportsrules/soccer/match-statistics",
+      "comparisonAvailable": false
+    },
+    {
+      "id": "corners",
+      "name": "Córners del partido",
+      "type": "Estadística",
+      "description": "Línea de saques de esquina; revisar si cuenta partido completo o un período.",
+      "sourceUrl": "https://help.betmgm.co.uk/hc/en-gb/articles/32836719761426-Football-FAQ-s",
+      "comparisonAvailable": false
+    },
+    {
+      "id": "result-btts",
+      "name": "Resultado + ambos marcan",
+      "type": "Combinada",
+      "description": "Resultado del partido unido a la condición de ambos equipos marcando.",
+      "sourceUrl": "https://www.oddschecker.com/football/english/premier-league",
+      "comparisonAvailable": false
+    },
+    {
+      "id": "builder",
+      "name": "Bet Builder",
+      "type": "Combinada",
+      "description": "Selecciones del mismo encuentro cuya cuota contempla la relación entre eventos; no multiplicar cuotas por cuenta propia.",
+      "sourceUrl": "https://help.bet365.com/s/en-gb/sports/bet-builder",
+      "comparisonAvailable": false
+    }
+  ],
+  "sources": [
+    {
+      "name": "Compare.bet · comparador actualizado 4/11/2026",
+      "url": "https://www.compare.bet/betting/odds/football"
+    },
+    {
+      "name": "Oddschecker · mercados Premier League",
+      "url": "https://www.oddschecker.com/football/english/premier-league"
+    },
+    {
+      "name": "bet365 · mercados de fútbol",
+      "url": "https://help.bet365.com/s/en-bg/sports/football-betting-markets"
+    },
+    {
+      "name": "bet365 · reglas estadísticas",
+      "url": "https://help.bet365.com/s/en/sportsrules/soccer/match-statistics"
+    },
+    {
+      "name": "bet365 · Bet Builder",
+      "url": "https://help.bet365.com/s/en-gb/sports/bet-builder"
+    },
+    {
+      "name": "BetMGM · mercados de fútbol",
+      "url": "https://help.betmgm.co.uk/hc/en-gb/articles/32836719761426-Football-FAQ-s"
+    }
+  ],
+  "unavailable": [
+    "No hay cotizaciones múltiples verificadas para ambos marcan, totales, córners o remates de jugador en esta consulta. El catálogo describe mercados; no inventa cuotas.",
+    "No se verificaron cuotas regionales de Betsson, Betano, Inkabet o Te Apuesto. No se declara ganadora una casa sin dos precios comparables del mismo evento, selección, línea y período.",
+    "No se incluyen bonos, promociones ni precios sujetos a condiciones de cuenta.",
+    "Mayor cuota representa mayor retorno bruto si la selección acierta; no indica mayor probabilidad ni garantiza beneficio."
+  ],
+  "comparisonPolicy": {
+    "sameEvent": true,
+    "sameMarket": true,
+    "sameSelection": true,
+    "samePeriod": true,
+    "currency": "No aplica a la cuota decimal",
+    "conversion": "decimal = 1 + numerador / denominador",
+    "rankingLabel": "Mayor cuota publicada entre las consultadas",
+    "transactional": false,
+    "affiliateLinks": false
+  }
+}

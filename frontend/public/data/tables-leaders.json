@@ -1,0 +1,1557 @@
+{
+  "asOf": "2026-11-04",
+  "timezone": "America/Lima",
+  "mode": "verified-web-snapshot",
+  "leagues": [
+    {
+      "code": "PL",
+      "name": "Premier League",
+      "season": "2026/27",
+      "standings": [
+        {
+          "position": 1,
+          "team": "Arsenal",
+          "played": 9,
+          "won": 8,
+          "drawn": 0,
+          "lost": 1,
+          "goalDifference": 9,
+          "points": 24
+        },
+        {
+          "position": 2,
+          "team": "Man City",
+          "played": 9,
+          "won": 7,
+          "drawn": 0,
+          "lost": 2,
+          "goalDifference": 10,
+          "points": 21
+        },
+        {
+          "position": 3,
+          "team": "Brighton",
+          "played": 9,
+          "won": 6,
+          "drawn": 1,
+          "lost": 2,
+          "goalDifference": 17,
+          "points": 19
+        },
+        {
+          "position": 4,
+          "team": "Chelsea",
+          "played": 9,
+          "won": 5,
+          "drawn": 1,
+          "lost": 3,
+          "goalDifference": 4,
+          "points": 16
+        },
+        {
+          "position": 5,
+          "team": "Liverpool",
+          "played": 9,
+          "won": 4,
+          "drawn": 3,
+          "lost": 2,
+          "goalDifference": 2,
+          "points": 15
+        },
+        {
+          "position": 6,
+          "team": "Brentford",
+          "played": 9,
+          "won": 3,
+          "drawn": 5,
+          "lost": 1,
+          "goalDifference": 7,
+          "points": 14
+        },
+        {
+          "position": 7,
+          "team": "Everton",
+          "played": 9,
+          "won": 3,
+          "drawn": 4,
+          "lost": 2,
+          "goalDifference": 0,
+          "points": 13
+        },
+        {
+          "position": 8,
+          "team": "Bournemouth",
+          "played": 9,
+          "won": 3,
+          "drawn": 3,
+          "lost": 3,
+          "goalDifference": 1,
+          "points": 12
+        },
+        {
+          "position": 9,
+          "team": "Tottenham",
+          "played": 9,
+          "won": 3,
+          "drawn": 3,
+          "lost": 3,
+          "goalDifference": 0,
+          "points": 12
+        },
+        {
+          "position": 10,
+          "team": "Aston Villa",
+          "played": 9,
+          "won": 3,
+          "drawn": 3,
+          "lost": 3,
+          "goalDifference": -3,
+          "points": 12
+        },
+        {
+          "position": 11,
+          "team": "Hull City",
+          "played": 9,
+          "won": 2,
+          "drawn": 5,
+          "lost": 2,
+          "goalDifference": 1,
+          "points": 11
+        },
+        {
+          "position": 12,
+          "team": "Leeds United",
+          "played": 9,
+          "won": 2,
+          "drawn": 5,
+          "lost": 2,
+          "goalDifference": 1,
+          "points": 11
+        },
+        {
+          "position": 13,
+          "team": "Newcastle",
+          "played": 9,
+          "won": 3,
+          "drawn": 2,
+          "lost": 4,
+          "goalDifference": -3,
+          "points": 11
+        },
+        {
+          "position": 14,
+          "team": "Ipswich Town",
+          "played": 9,
+          "won": 3,
+          "drawn": 2,
+          "lost": 4,
+          "goalDifference": -4,
+          "points": 11
+        },
+        {
+          "position": 15,
+          "team": "Fulham",
+          "played": 9,
+          "won": 2,
+          "drawn": 3,
+          "lost": 4,
+          "goalDifference": -2,
+          "points": 9
+        },
+        {
+          "position": 16,
+          "team": "Coventry City",
+          "played": 9,
+          "won": 3,
+          "drawn": 0,
+          "lost": 6,
+          "goalDifference": -7,
+          "points": 9
+        },
+        {
+          "position": 17,
+          "team": "Man Utd",
+          "played": 9,
+          "won": 1,
+          "drawn": 4,
+          "lost": 4,
+          "goalDifference": -5,
+          "points": 7
+        },
+        {
+          "position": 18,
+          "team": "Crystal Palace",
+          "played": 9,
+          "won": 2,
+          "drawn": 1,
+          "lost": 6,
+          "goalDifference": -12,
+          "points": 7
+        },
+        {
+          "position": 19,
+          "team": "Nottingham Forest",
+          "played": 9,
+          "won": 1,
+          "drawn": 3,
+          "lost": 5,
+          "goalDifference": -6,
+          "points": 6
+        },
+        {
+          "position": 20,
+          "team": "Sunderland",
+          "played": 9,
+          "won": 1,
+          "drawn": 2,
+          "lost": 6,
+          "goalDifference": -10,
+          "points": 5
+        }
+      ],
+      "standingsSourceUrl": "https://www.myfootballfacts.com/season/english-premier-league-2026-2027/",
+      "scope": "Premier League 2026/27 · datos de la fuente al 03/11/2026",
+      "leaders": [
+        {
+          "category": "goals",
+          "rank": 1,
+          "name": "Erling Haaland",
+          "team": "Manchester City",
+          "value": 9,
+          "scope": "Premier League 2026/27 · corte 02/11/2026; hay más jugadores empatados a 5",
+          "sourceUrl": "https://statz.ai/competitions/premier-league/stats/players",
+          "photo": "/players/rosters/city-erling-haaland.png"
+        },
+        {
+          "category": "goals",
+          "rank": 2,
+          "name": "Alexander Isak",
+          "team": "Liverpool",
+          "value": 6,
+          "scope": "Premier League 2026/27 · corte 02/11/2026; hay más jugadores empatados a 5",
+          "sourceUrl": "https://statz.ai/competitions/premier-league/stats/players"
+        },
+        {
+          "category": "goals",
+          "rank": 3,
+          "name": "Marcus Tavernier",
+          "team": "Bournemouth",
+          "value": 5,
+          "scope": "Premier League 2026/27 · corte 02/11/2026; hay más jugadores empatados a 5",
+          "sourceUrl": "https://statz.ai/competitions/premier-league/stats/players"
+        },
+        {
+          "category": "assists",
+          "rank": 1,
+          "name": "Declan Rice",
+          "team": "Arsenal",
+          "value": 5,
+          "scope": "Premier League 2026/27 · corte 02/11/2026; Gvardiol también figura con 4",
+          "sourceUrl": "https://statz.ai/competitions/premier-league/stats/players"
+        },
+        {
+          "category": "assists",
+          "rank": 2,
+          "name": "Pascal Groß",
+          "team": "Brighton",
+          "value": 4,
+          "scope": "Premier League 2026/27 · corte 02/11/2026; Gvardiol también figura con 4",
+          "sourceUrl": "https://statz.ai/competitions/premier-league/stats/players"
+        },
+        {
+          "category": "assists",
+          "rank": 3,
+          "name": "Evanilson",
+          "team": "Bournemouth",
+          "value": 4,
+          "scope": "Premier League 2026/27 · corte 02/11/2026; Gvardiol también figura con 4",
+          "sourceUrl": "https://statz.ai/competitions/premier-league/stats/players"
+        }
+      ],
+      "notes": [
+        "La tabla oficial es dinámica y no se pudo recuperar completa sin sesión de navegador; se usa My Football Facts con fecha de actualización explícita.",
+        "Los líderes se consultaron en Statz con corte 02/11/2026. Los empates en una cifra no implican desempate deportivo.",
+        "Consulta fechada, no datos en vivo. El mejor jugador solo se muestra cuando hay un premio oficial con periodo definido."
+      ],
+      "partial": false,
+      "expectedTeams": 20
+    },
+    {
+      "code": "PD",
+      "name": "LaLiga",
+      "season": "2026/27",
+      "standings": [
+        {
+          "position": 1,
+          "team": "FC Barcelona",
+          "played": 11,
+          "won": 10,
+          "drawn": 0,
+          "lost": 1,
+          "goalDifference": 34,
+          "points": 30
+        },
+        {
+          "position": 2,
+          "team": "Atlético de Madrid",
+          "played": 11,
+          "won": 9,
+          "drawn": 1,
+          "lost": 1,
+          "goalDifference": 14,
+          "points": 28
+        },
+        {
+          "position": 3,
+          "team": "Real Madrid",
+          "played": 11,
+          "won": 9,
+          "drawn": 0,
+          "lost": 2,
+          "goalDifference": 18,
+          "points": 27
+        },
+        {
+          "position": 4,
+          "team": "Real Betis",
+          "played": 11,
+          "won": 7,
+          "drawn": 2,
+          "lost": 2,
+          "goalDifference": 3,
+          "points": 23
+        },
+        {
+          "position": 5,
+          "team": "Real Sociedad",
+          "played": 11,
+          "won": 6,
+          "drawn": 1,
+          "lost": 4,
+          "goalDifference": 0,
+          "points": 19
+        },
+        {
+          "position": 6,
+          "team": "Sevilla FC",
+          "played": 11,
+          "won": 5,
+          "drawn": 2,
+          "lost": 4,
+          "goalDifference": -2,
+          "points": 17
+        },
+        {
+          "position": 7,
+          "team": "Athletic Club",
+          "played": 10,
+          "won": 4,
+          "drawn": 3,
+          "lost": 3,
+          "goalDifference": 4,
+          "points": 15
+        },
+        {
+          "position": 8,
+          "team": "RC Deportivo",
+          "played": 11,
+          "won": 3,
+          "drawn": 5,
+          "lost": 3,
+          "goalDifference": 1,
+          "points": 14
+        },
+        {
+          "position": 9,
+          "team": "Villarreal CF",
+          "played": 11,
+          "won": 3,
+          "drawn": 3,
+          "lost": 5,
+          "goalDifference": 0,
+          "points": 12
+        },
+        {
+          "position": 10,
+          "team": "Celta",
+          "played": 11,
+          "won": 2,
+          "drawn": 6,
+          "lost": 3,
+          "goalDifference": 0,
+          "points": 12
+        },
+        {
+          "position": 11,
+          "team": "Deportivo Alavés",
+          "played": 11,
+          "won": 3,
+          "drawn": 3,
+          "lost": 5,
+          "goalDifference": -2,
+          "points": 12
+        },
+        {
+          "position": 12,
+          "team": "Rayo Vallecano",
+          "played": 10,
+          "won": 3,
+          "drawn": 3,
+          "lost": 4,
+          "goalDifference": -5,
+          "points": 12
+        },
+        {
+          "position": 13,
+          "team": "Getafe CF",
+          "played": 11,
+          "won": 3,
+          "drawn": 3,
+          "lost": 5,
+          "goalDifference": -8,
+          "points": 12
+        },
+        {
+          "position": 14,
+          "team": "RCD Espanyol de Barcelona",
+          "played": 11,
+          "won": 3,
+          "drawn": 2,
+          "lost": 6,
+          "goalDifference": -1,
+          "points": 11
+        },
+        {
+          "position": 15,
+          "team": "CA Osasuna",
+          "played": 11,
+          "won": 3,
+          "drawn": 2,
+          "lost": 6,
+          "goalDifference": -11,
+          "points": 11
+        },
+        {
+          "position": 16,
+          "team": "R. Racing Club",
+          "played": 11,
+          "won": 3,
+          "drawn": 2,
+          "lost": 6,
+          "goalDifference": -14,
+          "points": 11
+        },
+        {
+          "position": 17,
+          "team": "Elche CF",
+          "played": 11,
+          "won": 2,
+          "drawn": 4,
+          "lost": 5,
+          "goalDifference": -4,
+          "points": 10
+        },
+        {
+          "position": 18,
+          "team": "Levante UD",
+          "played": 11,
+          "won": 2,
+          "drawn": 4,
+          "lost": 5,
+          "goalDifference": -5,
+          "points": 10
+        },
+        {
+          "position": 19,
+          "team": "Valencia CF",
+          "played": 11,
+          "won": 2,
+          "drawn": 3,
+          "lost": 6,
+          "goalDifference": -9,
+          "points": 9
+        },
+        {
+          "position": 20,
+          "team": "Málaga CF",
+          "played": 11,
+          "won": 0,
+          "drawn": 5,
+          "lost": 6,
+          "goalDifference": -13,
+          "points": 5
+        }
+      ],
+      "standingsSourceUrl": "https://iaas-public-front-pro.laliga.com/en-US/laliga-easports/standing",
+      "scope": "Temporada 2026/27 · consulta 04/11/2026",
+      "leaders": [
+        {
+          "category": "goals",
+          "rank": 1,
+          "name": "Raphinha",
+          "team": "Barcelona",
+          "value": 15,
+          "scope": "Temporada 2026/27 · consulta 04/11/2026",
+          "sourceUrl": "https://www.laliga.com/en-ES/stats/laliga-easports/scorers/page/1",
+          "photo": "/players/rosters/barca-alt-raphinha.jpg"
+        },
+        {
+          "category": "goals",
+          "rank": 2,
+          "name": "Kylian Mbappé",
+          "team": "Real Madrid",
+          "value": 12,
+          "scope": "Temporada 2026/27 · consulta 04/11/2026",
+          "sourceUrl": "https://www.laliga.com/en-ES/stats/laliga-easports/scorers/page/1",
+          "photo": "/players/rosters/real-alt-mbappe.png"
+        },
+        {
+          "category": "goals",
+          "rank": 3,
+          "name": "Lamine Yamal",
+          "team": "Barcelona",
+          "value": 10,
+          "scope": "Temporada 2026/27 · consulta 04/11/2026",
+          "sourceUrl": "https://www.laliga.com/en-ES/stats/laliga-easports/scorers/page/1",
+          "photo": "/players/rosters/barca-alt-lamine-yamal.jpg"
+        },
+        {
+          "category": "assists",
+          "rank": 1,
+          "name": "Lamine Yamal",
+          "team": "Barcelona",
+          "value": 7,
+          "scope": "Temporada 2026/27 · consulta 04/11/2026",
+          "sourceUrl": "https://www.laliga.com/en-ES/stats/laliga-easports/assists/page/1",
+          "photo": "/players/rosters/barca-alt-lamine-yamal.jpg"
+        },
+        {
+          "category": "assists",
+          "rank": 2,
+          "name": "Javier Hernández",
+          "team": "Espanyol",
+          "value": 6,
+          "scope": "Temporada 2026/27 · consulta 04/11/2026",
+          "sourceUrl": "https://www.laliga.com/en-ES/stats/laliga-easports/assists/page/1"
+        },
+        {
+          "category": "assists",
+          "rank": 3,
+          "name": "Fermín López",
+          "team": "Barcelona",
+          "value": 5,
+          "scope": "Temporada 2026/27 · consulta 04/11/2026",
+          "sourceUrl": "https://www.laliga.com/en-ES/stats/laliga-easports/assists/page/1",
+          "photo": "/players/rosters/barca-alt-fermin-lopez.jpg"
+        },
+        {
+          "category": "award",
+          "rank": 1,
+          "name": "Raphinha",
+          "team": "Barcelona",
+          "value": "Jugador del mes",
+          "scope": "Premio oficial LALIGA · septiembre 2026; no es un premio de temporada completa",
+          "sourceUrl": "https://www.laliga.com/en-AR/news/raphinha-ea-sports-laliga-player-of-the-month-for-september",
+          "photo": "/players/rosters/barca-alt-raphinha.jpg"
+        }
+      ],
+      "notes": [
+        "Consulta fechada, no datos en vivo. El mejor jugador solo se muestra cuando hay un premio oficial con periodo definido."
+      ],
+      "partial": false,
+      "expectedTeams": 20
+    },
+    {
+      "code": "SA",
+      "name": "Serie A",
+      "season": "2026/27",
+      "standings": [
+        {
+          "position": 1,
+          "team": "Lazio",
+          "played": 10,
+          "won": 9,
+          "drawn": 1,
+          "lost": 0,
+          "goalDifference": 16,
+          "points": 28
+        },
+        {
+          "position": 2,
+          "team": "Inter",
+          "played": 10,
+          "won": 8,
+          "drawn": 1,
+          "lost": 1,
+          "goalDifference": 13,
+          "points": 25
+        },
+        {
+          "position": 3,
+          "team": "Roma",
+          "played": 10,
+          "won": 7,
+          "drawn": 3,
+          "lost": 0,
+          "goalDifference": 18,
+          "points": 24
+        },
+        {
+          "position": 4,
+          "team": "Como",
+          "played": 10,
+          "won": 7,
+          "drawn": 2,
+          "lost": 1,
+          "goalDifference": 10,
+          "points": 23
+        },
+        {
+          "position": 5,
+          "team": "Milan",
+          "played": 10,
+          "won": 6,
+          "drawn": 3,
+          "lost": 1,
+          "goalDifference": 9,
+          "points": 21
+        },
+        {
+          "position": 6,
+          "team": "Frosinone",
+          "played": 10,
+          "won": 6,
+          "drawn": 2,
+          "lost": 2,
+          "goalDifference": 10,
+          "points": 20
+        },
+        {
+          "position": 7,
+          "team": "Juventus",
+          "played": 10,
+          "won": 5,
+          "drawn": 2,
+          "lost": 3,
+          "goalDifference": 3,
+          "points": 17
+        },
+        {
+          "position": 8,
+          "team": "Napoli",
+          "played": 10,
+          "won": 4,
+          "drawn": 2,
+          "lost": 4,
+          "goalDifference": 4,
+          "points": 14
+        },
+        {
+          "position": 9,
+          "team": "Bologna",
+          "played": 10,
+          "won": 4,
+          "drawn": 2,
+          "lost": 4,
+          "goalDifference": 1,
+          "points": 14
+        },
+        {
+          "position": 10,
+          "team": "Torino",
+          "played": 10,
+          "won": 4,
+          "drawn": 1,
+          "lost": 5,
+          "goalDifference": -2,
+          "points": 13
+        },
+        {
+          "position": 11,
+          "team": "Genoa",
+          "played": 10,
+          "won": 4,
+          "drawn": 1,
+          "lost": 5,
+          "goalDifference": -4,
+          "points": 13
+        },
+        {
+          "position": 12,
+          "team": "Cagliari",
+          "played": 10,
+          "won": 4,
+          "drawn": 1,
+          "lost": 5,
+          "goalDifference": -6,
+          "points": 13
+        },
+        {
+          "position": 13,
+          "team": "Atalanta",
+          "played": 10,
+          "won": 3,
+          "drawn": 2,
+          "lost": 5,
+          "goalDifference": -4,
+          "points": 11
+        },
+        {
+          "position": 14,
+          "team": "Lecce",
+          "played": 10,
+          "won": 3,
+          "drawn": 0,
+          "lost": 7,
+          "goalDifference": -10,
+          "points": 9
+        },
+        {
+          "position": 15,
+          "team": "Parma",
+          "played": 10,
+          "won": 2,
+          "drawn": 2,
+          "lost": 6,
+          "goalDifference": -7,
+          "points": 8
+        },
+        {
+          "position": 16,
+          "team": "Fiorentina",
+          "played": 10,
+          "won": 2,
+          "drawn": 2,
+          "lost": 6,
+          "goalDifference": -8,
+          "points": 8
+        },
+        {
+          "position": 17,
+          "team": "Sassuolo",
+          "played": 10,
+          "won": 2,
+          "drawn": 2,
+          "lost": 6,
+          "goalDifference": -10,
+          "points": 8
+        },
+        {
+          "position": 18,
+          "team": "Monza",
+          "played": 10,
+          "won": 2,
+          "drawn": 1,
+          "lost": 7,
+          "goalDifference": -7,
+          "points": 7
+        },
+        {
+          "position": 19,
+          "team": "Udinese",
+          "played": 10,
+          "won": 1,
+          "drawn": 2,
+          "lost": 7,
+          "goalDifference": -12,
+          "points": 5
+        },
+        {
+          "position": 20,
+          "team": "Venezia",
+          "played": 10,
+          "won": 1,
+          "drawn": 0,
+          "lost": 9,
+          "goalDifference": -14,
+          "points": 3
+        }
+      ],
+      "standingsSourceUrl": "https://www.asroma.com/en/men/standings",
+      "scope": "Temporada 2026/27 · consulta 04/11/2026",
+      "leaders": [
+        {
+          "category": "goals",
+          "rank": 1,
+          "name": "Gustavo Varela",
+          "team": "Monza",
+          "value": 9,
+          "scope": "Serie A 2026/27 · corte 02/11/2026",
+          "sourceUrl": "https://statz.ai/competitions/serie-a/stats/players"
+        },
+        {
+          "category": "goals",
+          "rank": 2,
+          "name": "Donyell Malen",
+          "team": "Roma",
+          "value": 8,
+          "scope": "Serie A 2026/27 · corte 02/11/2026",
+          "sourceUrl": "https://statz.ai/competitions/serie-a/stats/players"
+        },
+        {
+          "category": "goals",
+          "rank": 3,
+          "name": "Antonio Raimondo",
+          "team": "Frosinone",
+          "value": 8,
+          "scope": "Serie A 2026/27 · corte 02/11/2026",
+          "sourceUrl": "https://statz.ai/competitions/serie-a/stats/players"
+        },
+        {
+          "category": "assists",
+          "rank": 1,
+          "name": "Juan Miranda",
+          "team": "Bologna",
+          "value": 6,
+          "scope": "Serie A 2026/27 · corte 02/11/2026; otros jugadores también suman 4",
+          "sourceUrl": "https://statz.ai/competitions/serie-a/stats/players"
+        },
+        {
+          "category": "assists",
+          "rank": 2,
+          "name": "Mattia Zaccagni",
+          "team": "Lazio",
+          "value": 5,
+          "scope": "Serie A 2026/27 · corte 02/11/2026; otros jugadores también suman 4",
+          "sourceUrl": "https://statz.ai/competitions/serie-a/stats/players"
+        },
+        {
+          "category": "assists",
+          "rank": 3,
+          "name": "Paulo Dybala",
+          "team": "Roma",
+          "value": 4,
+          "scope": "Serie A 2026/27 · corte 02/11/2026; otros jugadores también suman 4",
+          "sourceUrl": "https://statz.ai/competitions/serie-a/stats/players"
+        },
+        {
+          "category": "award",
+          "rank": 1,
+          "name": "Donyell Malen",
+          "team": "Roma",
+          "value": "Jugador del mes",
+          "scope": "Premio oficial Serie A · agosto-septiembre 2026",
+          "sourceUrl": "https://en.legaseriea.it/serie-a/news/donyell-malen-ea-sports-fc-player-of-the-month-for-august-september"
+        }
+      ],
+      "notes": [
+        "Consulta fechada, no datos en vivo. El mejor jugador solo se muestra cuando hay un premio oficial con periodo definido."
+      ],
+      "partial": false,
+      "expectedTeams": 20
+    },
+    {
+      "code": "BL1",
+      "name": "Bundesliga",
+      "season": "2026/27",
+      "standings": [
+        {
+          "position": 1,
+          "team": "Bayern München",
+          "played": 8,
+          "won": 5,
+          "drawn": 3,
+          "lost": 0,
+          "goalDifference": 19,
+          "points": 18
+        },
+        {
+          "position": 2,
+          "team": "Borussia Dortmund",
+          "played": 8,
+          "won": 5,
+          "drawn": 3,
+          "lost": 0,
+          "goalDifference": 8,
+          "points": 18
+        },
+        {
+          "position": 3,
+          "team": "SC Freiburg",
+          "played": 8,
+          "won": 5,
+          "drawn": 1,
+          "lost": 2,
+          "goalDifference": 8,
+          "points": 16
+        },
+        {
+          "position": 4,
+          "team": "RB Leipzig",
+          "played": 8,
+          "won": 5,
+          "drawn": 0,
+          "lost": 3,
+          "goalDifference": 11,
+          "points": 15
+        },
+        {
+          "position": 5,
+          "team": "Werder Bremen",
+          "played": 8,
+          "won": 4,
+          "drawn": 3,
+          "lost": 1,
+          "goalDifference": 3,
+          "points": 15
+        },
+        {
+          "position": 6,
+          "team": "Bayer Leverkusen",
+          "played": 8,
+          "won": 4,
+          "drawn": 1,
+          "lost": 3,
+          "goalDifference": 2,
+          "points": 13
+        },
+        {
+          "position": 7,
+          "team": "SV Elversberg",
+          "played": 8,
+          "won": 4,
+          "drawn": 1,
+          "lost": 3,
+          "goalDifference": 0,
+          "points": 13
+        },
+        {
+          "position": 8,
+          "team": "Eintracht Frankfurt",
+          "played": 8,
+          "won": 3,
+          "drawn": 2,
+          "lost": 3,
+          "goalDifference": -5,
+          "points": 11
+        },
+        {
+          "position": 9,
+          "team": "Mainz 05",
+          "played": 8,
+          "won": 3,
+          "drawn": 1,
+          "lost": 4,
+          "goalDifference": 0,
+          "points": 10
+        },
+        {
+          "position": 10,
+          "team": "FC Augsburg",
+          "played": 8,
+          "won": 2,
+          "drawn": 3,
+          "lost": 3,
+          "goalDifference": 3,
+          "points": 9
+        },
+        {
+          "position": 11,
+          "team": "VfB Stuttgart",
+          "played": 8,
+          "won": 3,
+          "drawn": 0,
+          "lost": 5,
+          "goalDifference": -1,
+          "points": 9
+        },
+        {
+          "position": 12,
+          "team": "TSG Hoffenheim",
+          "played": 8,
+          "won": 3,
+          "drawn": 0,
+          "lost": 5,
+          "goalDifference": -2,
+          "points": 9
+        },
+        {
+          "position": 13,
+          "team": "1. FC Köln",
+          "played": 8,
+          "won": 2,
+          "drawn": 3,
+          "lost": 3,
+          "goalDifference": -3,
+          "points": 9
+        },
+        {
+          "position": 14,
+          "team": "SC Paderborn",
+          "played": 8,
+          "won": 2,
+          "drawn": 3,
+          "lost": 3,
+          "goalDifference": -3,
+          "points": 9
+        },
+        {
+          "position": 15,
+          "team": "Hamburger SV",
+          "played": 8,
+          "won": 3,
+          "drawn": 0,
+          "lost": 5,
+          "goalDifference": -12,
+          "points": 9
+        },
+        {
+          "position": 16,
+          "team": "Union Berlin",
+          "played": 8,
+          "won": 1,
+          "drawn": 4,
+          "lost": 3,
+          "goalDifference": -12,
+          "points": 7
+        },
+        {
+          "position": 17,
+          "team": "Schalke 04",
+          "played": 8,
+          "won": 1,
+          "drawn": 3,
+          "lost": 4,
+          "goalDifference": -5,
+          "points": 6
+        },
+        {
+          "position": 18,
+          "team": "Borussia Mönchengladbach",
+          "played": 8,
+          "won": 1,
+          "drawn": 1,
+          "lost": 6,
+          "goalDifference": -11,
+          "points": 4
+        }
+      ],
+      "standingsSourceUrl": "https://www.bundesliga.com/en/bundesliga/table",
+      "scope": "Temporada 2026/27 · consulta 04/11/2026",
+      "leaders": [
+        {
+          "category": "goals",
+          "rank": 1,
+          "name": "Niclas Füllkrug",
+          "team": "Werder Bremen",
+          "value": 9,
+          "scope": "Bundesliga 2026/27 · consulta 04/11/2026; Younes Ebnoutalib también suma 6",
+          "sourceUrl": "https://www.bundesliga.com/en/bundesliga/stats/players/goals"
+        },
+        {
+          "category": "goals",
+          "rank": 2,
+          "name": "Patrik Schick",
+          "team": "Bayer Leverkusen",
+          "value": 7,
+          "scope": "Bundesliga 2026/27 · consulta 04/11/2026; Younes Ebnoutalib también suma 6",
+          "sourceUrl": "https://www.bundesliga.com/en/bundesliga/stats/players/goals"
+        },
+        {
+          "category": "goals",
+          "rank": 3,
+          "name": "Michael Olise",
+          "team": "Bayern München",
+          "value": 6,
+          "scope": "Bundesliga 2026/27 · consulta 04/11/2026; Younes Ebnoutalib también suma 6",
+          "sourceUrl": "https://www.bundesliga.com/en/bundesliga/stats/players/goals",
+          "photo": "/players/rosters/bayern-michael-olise.png"
+        },
+        {
+          "category": "assists",
+          "rank": 1,
+          "name": "Antonio Nusa",
+          "team": "RB Leipzig",
+          "value": 6,
+          "scope": "Temporada 2026/27 · consulta 04/11/2026",
+          "sourceUrl": "https://www.bundesliga.com/en/bundesliga/stats/players/assists"
+        },
+        {
+          "category": "assists",
+          "rank": 2,
+          "name": "Marco Grüll",
+          "team": "Werder Bremen",
+          "value": 6,
+          "scope": "Temporada 2026/27 · consulta 04/11/2026",
+          "sourceUrl": "https://www.bundesliga.com/en/bundesliga/stats/players/assists"
+        },
+        {
+          "category": "assists",
+          "rank": 3,
+          "name": "Harry Kane",
+          "team": "Bayern München",
+          "value": 5,
+          "scope": "Temporada 2026/27 · consulta 04/11/2026",
+          "sourceUrl": "https://www.bundesliga.com/en/bundesliga/stats/players/assists",
+          "photo": "/players/rosters/bayern-harry-kane.png"
+        }
+      ],
+      "notes": [
+        "Consulta fechada, no datos en vivo. El mejor jugador solo se muestra cuando hay un premio oficial con periodo definido."
+      ],
+      "partial": false,
+      "expectedTeams": 18
+    },
+    {
+      "code": "FL1",
+      "name": "Ligue 1",
+      "season": "2026/27",
+      "standings": [
+        {
+          "position": 1,
+          "team": "Paris Saint-Germain",
+          "played": 9,
+          "won": 6,
+          "drawn": 2,
+          "lost": 1,
+          "goalDifference": 11,
+          "points": 20
+        },
+        {
+          "position": 2,
+          "team": "Lille",
+          "played": 9,
+          "won": 5,
+          "drawn": 3,
+          "lost": 1,
+          "goalDifference": 6,
+          "points": 18
+        },
+        {
+          "position": 3,
+          "team": "Olympique Lyonnais",
+          "played": 9,
+          "won": 5,
+          "drawn": 2,
+          "lost": 2,
+          "goalDifference": 8,
+          "points": 17
+        },
+        {
+          "position": 4,
+          "team": "Paris FC",
+          "played": 9,
+          "won": 5,
+          "drawn": 2,
+          "lost": 2,
+          "goalDifference": 6,
+          "points": 17
+        },
+        {
+          "position": 5,
+          "team": "Rennes",
+          "played": 9,
+          "won": 5,
+          "drawn": 1,
+          "lost": 3,
+          "goalDifference": 1,
+          "points": 16
+        },
+        {
+          "position": 6,
+          "team": "Olympique Marseille",
+          "played": 9,
+          "won": 5,
+          "drawn": 0,
+          "lost": 4,
+          "goalDifference": 7,
+          "points": 15
+        },
+        {
+          "position": 7,
+          "team": "Monaco",
+          "played": 9,
+          "won": 4,
+          "drawn": 3,
+          "lost": 2,
+          "goalDifference": 2,
+          "points": 15
+        },
+        {
+          "position": 8,
+          "team": "Nice",
+          "played": 9,
+          "won": 4,
+          "drawn": 2,
+          "lost": 3,
+          "goalDifference": 1,
+          "points": 14
+        },
+        {
+          "position": 9,
+          "team": "Lens",
+          "played": 9,
+          "won": 4,
+          "drawn": 1,
+          "lost": 4,
+          "goalDifference": 3,
+          "points": 13
+        },
+        {
+          "position": 10,
+          "team": "Brest",
+          "played": 9,
+          "won": 3,
+          "drawn": 3,
+          "lost": 3,
+          "goalDifference": 4,
+          "points": 12
+        },
+        {
+          "position": 11,
+          "team": "Lorient",
+          "played": 9,
+          "won": 3,
+          "drawn": 3,
+          "lost": 3,
+          "goalDifference": -1,
+          "points": 12
+        },
+        {
+          "position": 12,
+          "team": "Toulouse",
+          "played": 9,
+          "won": 2,
+          "drawn": 4,
+          "lost": 3,
+          "goalDifference": -1,
+          "points": 10
+        },
+        {
+          "position": 13,
+          "team": "Strasbourg",
+          "played": 9,
+          "won": 3,
+          "drawn": 1,
+          "lost": 5,
+          "goalDifference": -2,
+          "points": 10
+        },
+        {
+          "position": 14,
+          "team": "Auxerre",
+          "played": 9,
+          "won": 3,
+          "drawn": 1,
+          "lost": 5,
+          "goalDifference": -10,
+          "points": 10
+        },
+        {
+          "position": 15,
+          "team": "Angers",
+          "played": 9,
+          "won": 2,
+          "drawn": 2,
+          "lost": 5,
+          "goalDifference": -8,
+          "points": 8
+        },
+        {
+          "position": 16,
+          "team": "Troyes",
+          "played": 9,
+          "won": 2,
+          "drawn": 2,
+          "lost": 5,
+          "goalDifference": -9,
+          "points": 8
+        },
+        {
+          "position": 17,
+          "team": "Le Mans",
+          "played": 9,
+          "won": 1,
+          "drawn": 4,
+          "lost": 4,
+          "goalDifference": -7,
+          "points": 7
+        },
+        {
+          "position": 18,
+          "team": "Le Havre",
+          "played": 9,
+          "won": 0,
+          "drawn": 2,
+          "lost": 7,
+          "goalDifference": -11,
+          "points": 2
+        }
+      ],
+      "standingsSourceUrl": "https://www.psg.fr/football-masculin/classements",
+      "scope": "Temporada 2026/27 · consulta 04/11/2026",
+      "leaders": [
+        {
+          "category": "goals",
+          "rank": 1,
+          "name": "Lassine Sinayoko",
+          "team": "Paris FC",
+          "value": 8,
+          "scope": "Ligue 1 2026/27 · líder confirmado por la liga el 02/11/2026",
+          "sourceUrl": "https://ligue1.com/fr/articles/l1_article_6023-lassine-sinayoko-vraiment-capital-au-paris-fc"
+        },
+        {
+          "category": "goals",
+          "rank": 2,
+          "name": "Estéban Lepaul",
+          "team": "Rennes",
+          "value": 7,
+          "scope": "Ligue 1 2026/27 · consulta 04/11/2026; Gouiri y Wahi también suman 6",
+          "sourceUrl": "https://www.footmercato.net/france/ligue-1/buteur"
+        },
+        {
+          "category": "goals",
+          "rank": 3,
+          "name": "Cameron Archer",
+          "team": "Auxerre",
+          "value": 6,
+          "scope": "Ligue 1 2026/27 · consulta 04/11/2026; Gouiri y Wahi también suman 6",
+          "sourceUrl": "https://www.footmercato.net/france/ligue-1/buteur"
+        },
+        {
+          "category": "assists",
+          "rank": 1,
+          "name": "Florian Thauvin",
+          "team": "Lens",
+          "value": 8,
+          "scope": "Ligue 1 2026/27 · líder confirmado por UEFA en su publicación del 04/11/2026",
+          "sourceUrl": "https://fr.uefa.com/uefachampionsleague/news/02ab-21fc12d813c8-15ebad0739de-1000--fantasy-football-de-la-ligue-des-champions-les-conseils-du-/"
+        }
+      ],
+      "notes": [
+        "El ranking completo de asistencias no se recuperó de forma verificable; se incluye solo el líder confirmado por UEFA.",
+        "Consulta fechada, no datos en vivo. El mejor jugador solo se muestra cuando hay un premio oficial con periodo definido."
+      ],
+      "partial": false,
+      "expectedTeams": 18
+    },
+    {
+      "code": "PE1",
+      "name": "Liga 1 Perú",
+      "season": "2026",
+      "standings": [
+        {
+          "position": 1,
+          "team": "Alianza Lima",
+          "played": 32,
+          "won": 20,
+          "drawn": 8,
+          "lost": 4,
+          "goalDifference": 30,
+          "points": 68
+        },
+        {
+          "position": 2,
+          "team": "Universitario De Deportes",
+          "played": 31,
+          "won": 17,
+          "drawn": 8,
+          "lost": 6,
+          "goalDifference": 20,
+          "points": 59
+        },
+        {
+          "position": 3,
+          "team": "Fbc Melgar",
+          "played": 32,
+          "won": 15,
+          "drawn": 9,
+          "lost": 8,
+          "goalDifference": 17,
+          "points": 54
+        },
+        {
+          "position": 4,
+          "team": "Deportivo Garcilaso",
+          "played": 32,
+          "won": 16,
+          "drawn": 6,
+          "lost": 10,
+          "goalDifference": 15,
+          "points": 54
+        },
+        {
+          "position": 5,
+          "team": "Cusco Fc",
+          "played": 32,
+          "won": 16,
+          "drawn": 3,
+          "lost": 13,
+          "goalDifference": 2,
+          "points": 51
+        },
+        {
+          "position": 6,
+          "team": "Sporting Cristal",
+          "played": 34,
+          "won": 15,
+          "drawn": 5,
+          "lost": 12,
+          "goalDifference": 15,
+          "points": 50
+        },
+        {
+          "position": 7,
+          "team": "Cienciano",
+          "played": 32,
+          "won": 15,
+          "drawn": 5,
+          "lost": 12,
+          "goalDifference": 9,
+          "points": 50
+        },
+        {
+          "position": 8,
+          "team": "Alianza Atletico",
+          "played": 32,
+          "won": 14,
+          "drawn": 7,
+          "lost": 11,
+          "goalDifference": 3,
+          "points": 49
+        },
+        {
+          "position": 9,
+          "team": "Sport Huancayo",
+          "played": 32,
+          "won": 14,
+          "drawn": 5,
+          "lost": 13,
+          "goalDifference": -2,
+          "points": 47
+        },
+        {
+          "position": 10,
+          "team": "Los Chankas Cyc",
+          "played": 31,
+          "won": 13,
+          "drawn": 7,
+          "lost": 11,
+          "goalDifference": -12,
+          "points": 46
+        },
+        {
+          "position": 11,
+          "team": "Juan Pablo Ii",
+          "played": 33,
+          "won": 11,
+          "drawn": 9,
+          "lost": 13,
+          "goalDifference": -10,
+          "points": 42
+        },
+        {
+          "position": 12,
+          "team": "Sport Boys",
+          "played": 31,
+          "won": 12,
+          "drawn": 8,
+          "lost": 11,
+          "goalDifference": 2,
+          "points": 40
+        },
+        {
+          "position": 13,
+          "team": "Comerciantes Unidos",
+          "played": 32,
+          "won": 8,
+          "drawn": 12,
+          "lost": 12,
+          "goalDifference": -3,
+          "points": 36
+        },
+        {
+          "position": 14,
+          "team": "Atletico Grau",
+          "played": 32,
+          "won": 9,
+          "drawn": 7,
+          "lost": 16,
+          "goalDifference": -12,
+          "points": 34
+        },
+        {
+          "position": 15,
+          "team": "Adt",
+          "played": 32,
+          "won": 7,
+          "drawn": 10,
+          "lost": 15,
+          "goalDifference": -12,
+          "points": 30
+        },
+        {
+          "position": 16,
+          "team": "Deportivo Moquegua",
+          "played": 32,
+          "won": 7,
+          "drawn": 8,
+          "lost": 17,
+          "goalDifference": -21,
+          "points": 29
+        },
+        {
+          "position": 17,
+          "team": "Fc Cajamarca",
+          "played": 32,
+          "won": 7,
+          "drawn": 7,
+          "lost": 18,
+          "goalDifference": -21,
+          "points": 26
+        },
+        {
+          "position": 18,
+          "team": "Utc",
+          "played": 32,
+          "won": 5,
+          "drawn": 8,
+          "lost": 19,
+          "goalDifference": -20,
+          "points": 13
+        }
+      ],
+      "standingsSourceUrl": "https://liga1.pe/tabla-de-posiciones/",
+      "scope": "Liga 1 2026 · tabla acumulada publicada por Liga1 · consulta 04/11/2026",
+      "leaders": [
+        {
+          "category": "goals",
+          "rank": 1,
+          "name": "Eryc Castillo",
+          "team": "Alianza Lima",
+          "value": 19,
+          "scope": "Acumulado Apertura + Clausura 2026 · fecha 13 según encabezado oficial; consultado 04/11/2026",
+          "sourceUrl": "https://liga1.pe/"
+        },
+        {
+          "category": "goals",
+          "rank": 2,
+          "name": "Facundo Callejo",
+          "team": "Cusco FC",
+          "value": 18,
+          "scope": "Acumulado Apertura + Clausura 2026 · fecha 13 según encabezado oficial; consultado 04/11/2026",
+          "sourceUrl": "https://liga1.pe/"
+        },
+        {
+          "category": "goals",
+          "rank": 3,
+          "name": "Alex Valera",
+          "team": "Universitario",
+          "value": 17,
+          "scope": "Acumulado Apertura + Clausura 2026 · fecha 13 según encabezado oficial; consultado 04/11/2026",
+          "sourceUrl": "https://liga1.pe/",
+          "photo": "/players/rosters/uni-alex-valera.webp"
+        }
+      ],
+      "notes": [
+        "La fila oficial de Sporting Cristal registra PJ=34 pero PG+PE+PP=32. Este dato se conserva tal como lo publica la fuente; no usar para cálculos derivados hasta corregirlo el proveedor.",
+        "La tabla oficial contiene sanciones y registros de partidos desiguales. Se conserva lo publicado por Liga1 sin recalcular ni corregir sus cifras.",
+        "Los goleadores oficiales publicados corresponden al acumulado Apertura + Clausura hasta fecha 13, no a una actualización en vivo.",
+        "No se incluye un ranking de asistencias de Perú: las fuentes consultadas mezclan Apertura, Clausura y acumulado con cifras distintas.",
+        "Consulta fechada, no datos en vivo. El mejor jugador solo se muestra cuando hay un premio oficial con periodo definido."
+      ],
+      "partial": false,
+      "expectedTeams": 18
+    }
+  ]
+}

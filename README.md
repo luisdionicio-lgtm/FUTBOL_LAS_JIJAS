@@ -105,3 +105,7 @@ Vite: `npm run dev -w frontend` (puerto 5173), requiere backend accesible en 300
 6. Motor `backend/src/scoring.ts` y 14 pruebas unitarias de reglas y bordes.
 
 La recuperación no envía correos: es una implementación local documentada. No hay servicio de IA ni resultados garantizados. Logos y fotos pertenecen a sus titulares; se registran URLs y atribuciones en `docs/asset-sources.json`, `docs/roster-sources.json` y `docs/cover-source.json`. No se distribuyen como imágenes libres ni se otorga una licencia sobre ellos. La entrega no contiene imágenes generadas por IA.
+
+## Actualidad 2026
+
+Se añadió una sección con resultados recientes, próximos encuentros de2026, tablas deportivas, líderes de goles/asistencias y comparativas informativas de cuotas. Son consultas web fechadas al04/11/2026 con fuentes, no feeds en vivo. Ver [alcance y límites](docs/ACTUALIDAD-2026.md).

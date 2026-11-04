@@ -30,3 +30,7 @@ Verificación en navegador completada: acceso de demo, guardado y edición de pr
 Se añadieron cabecera azul noche, fondos blanco hielo con acentos cian/violeta, botones con degradados azul/cian, violeta y rojo, paneles oscuros de ranking/reglas, escudos y tipografía mayores y cabecera móvil con marca centrada. Se conservan las fotos reales y las reglas de negocio. La portada indica la fecha actual en America/Lima y cada encuentro muestra (PER). Los seis encuentros de demostración pendientes se actualizaron a 5–7 de noviembre de 2026; siguen siendo simulados.
 
 Revisión visual de escritorio a 1440×1000 completada: scrollWidth 1425, sin desbordamiento horizontal. La comprobación móvil del rediseño no pudo finalizar porque el uso local del navegador se deshabilitó en los ajustes de Work. Los resultados responsive anteriores corresponden a la versión anterior. La compilación del rediseño se comprobó por separado.
+
+## Actualidad 2026 — consulta del 4 de noviembre
+
+Compilación frontend/backend aprobada. `tests/current-data.mjs` pasó: 60 partidos exclusivamente2026, 6 tablas/114filas y 6comparaciones/18cuotas. Se verificaron fuentes, fechas, duplicados, estructura, fotografías de líderes y conversión fraccionaria/decimal. Los tres archivos JSON servidos en localhost coinciden con la entrega. El test no prueba veracidad editorial ni sustituye las URLs de origen. No se repitió la prueba de carga: no cambió el backend. La revisión visual de esta ampliación no se ejecutó por navegador local deshabilitado en Work.
