@@ -1,0 +1,22 @@
+✔ exact result is 5, no double base (0.574459ms)
+✔ correct winner is 3 (0.049ms)
+✔ correct draw is 3 without exact (0.036708ms)
+✔ exclusive margin prioritizes winner (0.029375ms)
+✔ cumulative margin adds 2 (0.034416ms)
+✔ wrong winner resets streak (0.221208ms)
+✔ third consecutive win adds 2 (0.033667ms)
+✔ fourth does not repeat bonus (0.035208ms)
+✔ sixth grants another bonus (0.049458ms)
+✔ strictly >24h grants early bonus (0.341541ms)
+✔ exactly 24h grants no early bonus (0.050583ms)
+✔ last ten minutes grant base only, including streak (0.036709ms)
+✔ early bonus independent of correct result (0.035083ms)
+✔ recalculation deterministic (0.036ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 53.368334

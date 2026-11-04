@@ -1,0 +1,66 @@
+[
+  {
+    "scenario": "k6-2replicas-100",
+    "requests": 1500,
+    "rps": 98.654990521267,
+    "avg_ms": 11.018441125333323,
+    "p95_ms": 25.674411049999996,
+    "error_rate": 0
+  },
+  {
+    "scenario": "k6-2replicas-20",
+    "requests": 300,
+    "rps": 19.711568242401224,
+    "avg_ms": 12.31871308,
+    "p95_ms": 18.465114899999996,
+    "error_rate": 0
+  },
+  {
+    "scenario": "k6-2replicas-50",
+    "requests": 750,
+    "rps": 49.216889136798635,
+    "avg_ms": 13.033177468000007,
+    "p95_ms": 32.65351524999999,
+    "error_rate": 0
+  },
+  {
+    "scenario": "k6-3replicas-100",
+    "requests": 1500,
+    "rps": 98.6343730823912,
+    "avg_ms": 11.644643076666677,
+    "p95_ms": 22.78656075,
+    "error_rate": 0
+  },
+  {
+    "scenario": "k6-3replicas-20",
+    "requests": 300,
+    "rps": 19.72199297041589,
+    "avg_ms": 12.422584583333327,
+    "p95_ms": 24.606928499999988,
+    "error_rate": 0
+  },
+  {
+    "scenario": "k6-3replicas-50",
+    "requests": 750,
+    "rps": 49.395387583539474,
+    "avg_ms": 10.299191378666658,
+    "p95_ms": 18.62193095,
+    "error_rate": 0
+  },
+  {
+    "scenario": "k6-incremental",
+    "requests": 3397,
+    "rps": 84.64218171793127,
+    "avg_ms": 4.361198559905795,
+    "p95_ms": 8.587183399999988,
+    "error_rate": 0
+  },
+  {
+    "scenario": "k6-sustained-50",
+    "requests": 1500,
+    "rps": 49.3586370911118,
+    "avg_ms": 11.121359372666669,
+    "p95_ms": 22.16111635,
+    "error_rate": 0
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "lasjijas",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "build": "npm run build -w frontend && npm run build -w backend",
+    "test": "npm test -w backend",
+    "start": "node scripts/start.mjs",
+    "test:integration": "node tests/integration.mjs && node tests/scoring-integration.mjs"
+  },
+  "overrides": {
+    "deepmerge-ts": "^8.0.0"
+  }
+}

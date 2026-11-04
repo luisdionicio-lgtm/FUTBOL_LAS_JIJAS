@@ -1,0 +1,18 @@
+[
+  {
+    test: '3 exact predictions + early + third streak =20',
+    status: 'PASS'
+  },
+  {
+    test: 'Repeated evaluation neither duplicates bonus nor changes anticipation',
+    status: 'PASS'
+  },
+  {
+    test: 'Correction rebuilds downstream streak and total=13',
+    status: 'PASS'
+  },
+  {
+    test: 'Ranking agrees with audited scores and corrected streak',
+    status: 'PASS'
+  }
+]

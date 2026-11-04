@@ -1,0 +1,26 @@
+PASS Health reaches database and Redis
+PASS All six leagues listed
+PASS Private routes reject anonymous requests
+PASS Register creates account with cookie
+PASS Duplicate registration rejected
+PASS Authenticated profile available across replicas
+PASS User cannot access administrative data
+PASS Integer and nonnegative score validated
+PASS Create prediction
+PASS Modify prediction
+PASS Concurrent retry requests retain one prediction
+PASS Room created with invitation
+PASS Join using invitation is idempotent
+PASS Member cannot change room settings or remove owner
+PASS Owner can update room settings
+PASS Wrong password rejected
+PASS Admin login
+PASS Admin imports verified-source fixture
+PASS Closed predictions rejected
+PASS Result correction audited
+PASS Future match cannot be finalized
+PASS Recalculate repeat is safe
+PASS Rankings include registered participant
+PASS CSRF origin rejected
+PASS Recovery request avoids account enumeration
+PASS Logout invalidates session on every replica

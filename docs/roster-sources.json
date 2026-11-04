@@ -1,0 +1,104 @@
+{
+  "snapshotDate": "2026-11-04",
+  "selectionPolicy": "17 jugadores por club: once de referencia 4-3-3 y seis suplentes. Selección educativa, no alineación oficial de partido. Datos y fotografías de fuentes oficiales; sin generación IA.",
+  "teams": [
+    {
+      "teamId": "demo-PD-0",
+      "sourceUrl": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "snapshotDate": "2026-11-04",
+      "availablePlayers": 25,
+      "selectedPlayers": 17,
+      "selectionPolicy": "Once de referencia 4-3-3 y seis suplentes seleccionados de la plantilla oficial; no es alineación confirmada de un partido. No se inventan estadísticas ausentes."
+    },
+    {
+      "teamId": "demo-PD-1",
+      "sourceUrl": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "snapshotDate": "2026-11-04",
+      "availablePlayers": 27,
+      "selectedPlayers": 17,
+      "selectionPolicy": "Once de referencia 4-3-3 y seis suplentes seleccionados de la plantilla oficial; no es alineación confirmada de un partido. No se inventan estadísticas ausentes."
+    },
+    {
+      "teamId": "demo-PL-0",
+      "sourceUrl": "https://www.premierleague.com/en/clubs/3/arsenal/squad?se=418",
+      "snapshotDate": "2026-11-04",
+      "availablePlayers": 31,
+      "selectedPlayers": 17,
+      "selectionPolicy": "Once de referencia 4-3-3 y seis suplentes seleccionados de la plantilla oficial; no es alineación confirmada de un partido. No se inventan estadísticas ausentes."
+    },
+    {
+      "teamId": "demo-PL-1",
+      "sourceUrl": "https://www.premierleague.com/en/clubs/43/manchester-city/squad?se=578",
+      "snapshotDate": "2026-11-04",
+      "availablePlayers": 28,
+      "selectedPlayers": 17,
+      "selectionPolicy": "Once de referencia 4-3-3 y seis suplentes seleccionados de la plantilla oficial; no es alineación confirmada de un partido. No se inventan estadísticas ausentes."
+    },
+    {
+      "teamId": "demo-SA-0",
+      "sourceUrl": "https://www.inter.it/en/teams/first-team",
+      "snapshotDate": "2026-11-04",
+      "availablePlayers": 24,
+      "selectedPlayers": 17,
+      "selectionPolicy": "Once de referencia 4-3-3 y seis suplentes seleccionados de la plantilla oficial; no es alineación confirmada de un partido. No se inventan estadísticas ausentes."
+    },
+    {
+      "teamId": "demo-SA-1",
+      "sourceUrl": "https://www.juventus.com/en/teams/first-team-men/squad/",
+      "snapshotDate": "2026-11-04",
+      "availablePlayers": 29,
+      "selectedPlayers": 17,
+      "selectionPolicy": "Once de referencia 4-3-3 y seis suplentes seleccionados de la plantilla oficial; no es alineación confirmada de un partido. No se inventan estadísticas ausentes."
+    },
+    {
+      "teamId": "demo-BL1-1",
+      "sourceUrl": "https://www.bvb.de/de/en/teams/football/first-team.html",
+      "snapshotDate": "2026-11-04",
+      "availablePlayers": 29,
+      "selectedPlayers": 17,
+      "selectionPolicy": "Once de referencia 4-3-3 y seis suplentes seleccionados de la plantilla oficial; no es alineación confirmada de un partido. No se inventan estadísticas ausentes."
+    },
+    {
+      "teamId": "demo-FL1-0",
+      "sourceUrl": "https://www.psg.fr/en/mens-football/squad",
+      "snapshotDate": "2026-11-04",
+      "availablePlayers": 24,
+      "selectedPlayers": 17,
+      "selectionPolicy": "Once de referencia 4-3-3 y seis suplentes seleccionados de la plantilla oficial; no es alineación confirmada de un partido. No se inventan estadísticas ausentes."
+    },
+    {
+      "teamId": "demo-BL1-0",
+      "sourceUrl": "https://www.bundesliga.com/de/bundesliga/clubs/fc-bayern-muenchen/kader",
+      "snapshotDate": "2026-11-04",
+      "availablePlayers": 18,
+      "selectedPlayers": 17,
+      "selectionPolicy": "Once de referencia 4-3-3 y seis suplentes seleccionados de la plantilla oficial; no es alineación confirmada de un partido. No se inventan estadísticas ausentes."
+    },
+    {
+      "teamId": "demo-PE1-0",
+      "sourceUrl": "https://universitario.pe/equipos/futbol-masculino",
+      "snapshotDate": "2026-11-04",
+      "availablePlayers": 28,
+      "selectedPlayers": 17,
+      "selectionPolicy": "Once de referencia 4-3-3 y seis suplentes seleccionados de la plantilla oficial; no es alineación confirmada de un partido. No se inventan estadísticas ausentes."
+    },
+    {
+      "teamId": "demo-PE1-1",
+      "sourceUrl": "https://liga1.pe/club/alianza-lima/",
+      "snapshotDate": "2026-11-04",
+      "availablePlayers": 29,
+      "selectedPlayers": 17,
+      "selectionPolicy": "Once de referencia 4-3-3 y seis suplentes seleccionados de la plantilla oficial; no es alineación confirmada de un partido. No se inventan estadísticas ausentes."
+    },
+    {
+      "teamId": "demo-FL1-1",
+      "sourceUrl": "https://www.om.fr/fr/equipe/hommes",
+      "snapshotDate": "2026-11-04",
+      "availablePlayers": 17,
+      "selectedPlayers": 17,
+      "selectionPolicy": "Once de referencia 4-3-3 y seis suplentes seleccionados de la plantilla oficial; no es alineación confirmada de un partido. No se inventan estadísticas ausentes.",
+      "photoNotes": "Plantilla verificada en UEFA y OM; fotos oficiales de Ligue1 y Bundesliga, algunas archivadas de 2025 y con camisetas de temporadas anteriores."
+    }
+  ],
+  "imageDownloadErrors": []
+}

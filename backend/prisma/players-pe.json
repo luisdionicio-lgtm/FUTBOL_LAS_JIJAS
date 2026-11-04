@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pe-al-0",
+    "name": "Alejandro Cristoph Duarte Preuss",
+    "position": "Arqueros",
+    "nationality": "Ver fuente oficial",
+    "dateOfBirth": "05/04/2000",
+    "photo": "/players/alianza-0.jpg",
+    "sourceUrl": "https://liga1.pe/club/alianza-lima/"
+  },
+  {
+    "id": "pe-al-1",
+    "name": "Ángel Alberto De La Cruz Arias",
+    "position": "Arqueros",
+    "nationality": "Ver fuente oficial",
+    "dateOfBirth": "24/05/2002",
+    "photo": "/players/alianza-1.jpg",
+    "sourceUrl": "https://liga1.pe/club/alianza-lima/"
+  },
+  {
+    "id": "pe-al-2",
+    "name": "Fabrisio André Mesías Silva",
+    "position": "Arqueros",
+    "nationality": "Ver fuente oficial",
+    "dateOfBirth": "30/01/2007",
+    "photo": "/players/alianza-2.jpg",
+    "sourceUrl": "https://liga1.pe/club/alianza-lima/"
+  },
+  {
+    "id": "pe-al-3",
+    "name": "Thiago Alonso Bocanegra Boulangger",
+    "position": "Arqueros",
+    "nationality": "Ver fuente oficial",
+    "dateOfBirth": "02/02/2008",
+    "photo": "/players/alianza-3.jpg",
+    "sourceUrl": "https://liga1.pe/club/alianza-lima/"
+  },
+  {
+    "id": "pe-al-4",
+    "name": "Cristian Humberto Carbajal Diaz",
+    "position": "Defensas",
+    "nationality": "Ver fuente oficial",
+    "dateOfBirth": "20/09/1999",
+    "photo": "/players/alianza-4.jpg",
+    "sourceUrl": "https://liga1.pe/club/alianza-lima/"
+  },
+  {
+    "id": "pe-al-5",
+    "name": "D'Alessandro Josué Montenegro Guerrero",
+    "position": "Defensas",
+    "nationality": "Ver fuente oficial",
+    "dateOfBirth": "14/03/2003",
+    "photo": "/players/alianza-5.jpg",
+    "sourceUrl": "https://liga1.pe/club/alianza-lima/"
+  },
+  {
+    "id": "pe-al-6",
+    "name": "Gianfranco Chávez Massoni",
+    "position": "Defensas",
+    "nationality": "Ver fuente oficial",
+    "dateOfBirth": "10/08/1998",
+    "photo": "/players/alianza-6.jpg",
+    "sourceUrl": "https://liga1.pe/club/alianza-lima/"
+  },
+  {
+    "id": "pe-al-7",
+    "name": "Jhoao Velásquez Chumpitaz",
+    "position": "Defensas",
+    "nationality": "Ver fuente oficial",
+    "dateOfBirth": "02/08/2005",
+    "photo": "/players/alianza-7.jpg",
+    "sourceUrl": "https://liga1.pe/club/alianza-lima/"
+  }
+]

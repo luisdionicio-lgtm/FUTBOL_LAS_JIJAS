@@ -1,0 +1,7 @@
+NAME                  IMAGE                                                                     COMMAND                  SERVICE    CREATED          STATUS                    PORTS
+lasjijas-backend-1    lasjijas-backend:local                                                    "docker-entrypoint.s…"   backend    14 seconds ago   Up 11 seconds (healthy)   
+lasjijas-backend-2    lasjijas-backend:local                                                    "docker-entrypoint.s…"   backend    14 seconds ago   Up 11 seconds (healthy)   
+lasjijas-db-1         postgres:16-alpine                                                        "docker-entrypoint.s…"   db         15 minutes ago   Up 15 minutes (healthy)   5432/tcp
+lasjijas-frontend-1   sha256:06acfcbce78397a3632385a87a17145439f522ad5446adf3ac6ecd3e4271cb87   "/docker-entrypoint.…"   frontend   49 seconds ago   Up 48 seconds (healthy)   80/tcp
+lasjijas-nginx-1      nginx:1.28-alpine                                                         "/docker-entrypoint.…"   nginx      15 minutes ago   Up 15 minutes (healthy)   127.0.0.1:8080->80/tcp
+lasjijas-redis-1      redis:7-alpine                                                            "docker-entrypoint.s…"   redis      15 minutes ago   Up 15 minutes (healthy)   6379/tcp

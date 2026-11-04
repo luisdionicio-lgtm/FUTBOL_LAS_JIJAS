@@ -1,0 +1,35 @@
+import assert from 'node:assert/strict';
+import {writeFile,mkdir} from 'node:fs/promises';
+const base=process.env.BASE_URL||'http://127.0.0.1:8080/api';
+const results=[];let cookie='',adminCookie='';
+async function request(path,method='GET',data,auth=cookie){const r=await fetch(base+path,{method,headers:{...(data?{'Content-Type':'application/json'}:{}),...(auth?{Cookie:auth}:{})},body:data?JSON.stringify(data):undefined});return {status:r.status,body:await r.json(),cookie:r.headers.get('set-cookie')?.split(';')[0]};}
+async function check(name,fn){try{await fn();results.push({name,status:'PASS'});console.log('PASS',name);}catch(e){results.push({name,status:'FAIL',error:e.message});console.error('FAIL',name,e.message);}}
+const suffix=Date.now();let room,secondCookie,fixtureId='manual:integration-'+suffix;
+await check('Health reaches database and Redis',async()=>assert.equal((await request('/health')).body.ok,true));
+await check('All six leagues listed',async()=>assert.equal((await request('/leagues')).body.length,6));
+await check('Private routes reject anonymous requests',async()=>assert.equal((await request('/predictions','GET',undefined,'')).status,401));
+await check('Register creates account with cookie',async()=>{const r=await request('/auth/register','POST',{name:'QA '+suffix,email:`qa-${suffix}@example.test`,password:'IntegrationLocal2026!'},'');assert.equal(r.status,201);cookie=r.cookie;assert.ok(cookie);});
+await check('Duplicate registration rejected',async()=>assert.equal((await request('/auth/register','POST',{name:'QA',email:`qa-${suffix}@example.test`,password:'IntegrationLocal2026!'},'')).status,409));
+await check('Authenticated profile available across replicas',async()=>{for(let i=0;i<5;i++)assert.equal((await request('/auth/me')).status,200);});
+await check('User cannot access administrative data',async()=>assert.equal((await request('/admin/status')).status,403));
+await check('Integer and nonnegative score validated',async()=>{assert.equal((await request('/predictions/demo-PD','PUT',{home:-1,away:0})).status,400);assert.equal((await request('/predictions/demo-PD','PUT',{home:1.5,away:0})).status,400);});
+await check('Create prediction',async()=>assert.equal((await request('/predictions/demo-PD','PUT',{home:2,away:1})).status,200));
+await check('Modify prediction',async()=>assert.equal((await request('/predictions/demo-PD','PUT',{home:3,away:1})).body.home,3));
+await check('Concurrent retry requests retain one prediction',async()=>{const rows=await Promise.all(Array.from({length:10},()=>request('/predictions/demo-PD','PUT',{home:2,away:0})));rows.forEach(r=>assert.equal(r.status,200));assert.equal((await request('/predictions')).body.filter(p=>p.matchId==='demo-PD').length,1);});
+await check('Room created with invitation',async()=>{const r=await request('/rooms','POST',{name:'QA sala '+suffix,description:'Sala de prueba automatizada'});assert.equal(r.status,201);room=r.body;assert.equal(room.code.length,12);});
+await check('Join using invitation is idempotent',async()=>{const u=await request('/auth/register','POST',{name:'QA invitado '+suffix,email:`qa-guest-${suffix}@example.test`,password:'IntegrationLocal2026!'},'');secondCookie=u.cookie;for(let i=0;i<2;i++)assert.equal((await request('/rooms/join','POST',{code:room.code},secondCookie)).status,200);assert.equal((await request('/rooms/'+room.id)).body.ranking.length,2);});
+await check('Member cannot change room settings or remove owner',async()=>{assert.equal((await request('/rooms/'+room.id,'PATCH',{name:'Nueva sala',description:''},secondCookie)).status,403);const owner=(await request('/auth/me')).body.id;assert.equal((await request('/rooms/'+room.id+'/members/'+owner,'DELETE',undefined,secondCookie)).status,403);});
+await check('Owner can update room settings',async()=>assert.equal((await request('/rooms/'+room.id,'PATCH',{name:'QA actualizada '+suffix,description:'Nueva descripción'})).status,200));
+await check('Wrong password rejected',async()=>assert.equal((await request('/auth/login','POST',{email:`qa-${suffix}@example.test`,password:'IncorrectPassword!'},'')).status,401));
+await check('Admin login',async()=>{const r=await request('/auth/login','POST',{email:'admin@lasjijas.local',password:process.env.DEMO_PASSWORD||'DemoLocal2026!'},'');assert.equal(r.status,200);adminCookie=r.cookie;});
+await check('Admin imports verified-source fixture',async()=>{const r=await request('/admin/import','POST',{leagueCode:'PE1',sourceUrl:'https://example.org/educational-test-fixture',season:'QA',matches:[{id:'integration-'+suffix,home:{id:'qa-home-'+suffix,name:'QA Local'},away:{id:'qa-away-'+suffix,name:'QA Visitante'},kickoff:new Date(Date.now()-3600000).toISOString(),status:'FINISHED',homeScore:2,awayScore:1}]},adminCookie);assert.equal(r.status,200);});
+await check('Closed predictions rejected',async()=>assert.equal((await request('/predictions/'+fixtureId,'PUT',{home:2,away:1})).status,409));
+await check('Result correction audited',async()=>assert.equal((await request('/admin/matches/'+fixtureId+'/result','PUT',{homeScore:1,awayScore:1,reason:'QA corrección educativa'},adminCookie)).status,200));
+await check('Future match cannot be finalized',async()=>assert.equal((await request('/admin/matches/demo-PD/result','PUT',{homeScore:1,awayScore:1,reason:'Prueba fecha futura'},adminCookie)).status,400));
+await check('Recalculate repeat is safe',async()=>{for(let i=0;i<2;i++)assert.equal((await request('/admin/recalculate','POST',{},adminCookie)).status,200);});
+await check('Rankings include registered participant',async()=>assert.ok((await request('/rankings')).body.some(u=>u.name==='QA '+suffix)));
+await check('CSRF origin rejected',async()=>{const r=await fetch(base+'/rooms',{method:'POST',headers:{Cookie:cookie,Origin:'https://attacker.example','Content-Type':'application/json'},body:JSON.stringify({name:'malicious'})});assert.equal(r.status,403);});
+await check('Recovery request avoids account enumeration',async()=>{const r=await request('/auth/forgot','POST',{email:'nobody@example.test'},'');assert.equal(r.status,200);assert.ok(!r.body.token);});
+await check('Logout invalidates session on every replica',async()=>{assert.equal((await request('/auth/logout','POST',{})).status,200);for(let i=0;i<3;i++)assert.equal((await request('/auth/me')).status,401);});
+await mkdir('tests/results',{recursive:true});await writeFile('tests/results/integration.json',JSON.stringify({date:new Date().toISOString(),base,results},null,2));
+if(results.some(r=>r.status==='FAIL'))process.exitCode=1;

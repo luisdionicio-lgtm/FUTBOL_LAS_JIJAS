@@ -1,0 +1,17 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {score,ScoreInput} from '../src/scoring.js';
+const base:ScoreInput={home:2,away:1,actualHome:2,actualAway:1,kickoff:new Date('2026-11-10T20:00:00Z'),registeredAt:new Date('2026-11-10T18:00:00Z'),streak:0,mode:'exclusive'};
+const calc=(p:Partial<ScoreInput>)=>score({...base,...p});
+test('exact result is 5, no double base',()=>assert.equal(calc({mode:'cumulative'}).total,5));
+test('correct winner is 3',()=>assert.equal(calc({home:3,away:0}).base,3));
+test('correct draw is 3 without exact',()=>assert.equal(calc({home:0,away:0,actualHome:2,actualAway:2}).base,3));
+test('exclusive margin prioritizes winner',()=>assert.equal(calc({home:3,away:2}).base,3));
+test('cumulative margin adds 2',()=>assert.equal(calc({home:3,away:2,mode:'cumulative'}).base,5));
+test('wrong winner resets streak',()=>assert.deepEqual([calc({home:0,away:2,streak:2}).total,calc({home:0,away:2,streak:2}).streak],[0,0]));
+test('third consecutive win adds 2',()=>assert.equal(calc({streak:2}).bonus,2));
+test('fourth does not repeat bonus',()=>assert.equal(calc({streak:3}).bonus,0));
+test('sixth grants another bonus',()=>assert.equal(calc({streak:5}).bonus,2));
+test('strictly >24h grants early bonus',()=>assert.equal(calc({registeredAt:new Date('2026-11-09T19:59:59Z')}).early,1));
+test('exactly 24h grants no early bonus',()=>assert.equal(calc({registeredAt:new Date('2026-11-09T20:00:00Z')}).early,0));
+test('last ten minutes grant base only, including streak',()=>{const s=calc({streak:2,registeredAt:new Date('2026-11-10T19:50:00Z')});assert.equal(s.total,5);assert.equal(s.bonus,0);});
+test('early bonus independent of correct result',()=>assert.equal(calc({home:0,away:2,registeredAt:new Date('2026-11-08T20:00:00Z')}).total,1));
+test('recalculation deterministic',()=>assert.deepEqual(calc({streak:2}),calc({streak:2})));

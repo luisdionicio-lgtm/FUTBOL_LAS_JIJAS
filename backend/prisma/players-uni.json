@@ -1,0 +1,66 @@
+[
+  {
+    "id": "pe-uni-0",
+    "name": "Diego Romero",
+    "position": "Arquero",
+    "shirtNumber": 1,
+    "photo": "/players/universitario-0.webp",
+    "sourceUrl": "https://universitario.pe/equipos/futbol-masculino"
+  },
+  {
+    "id": "pe-uni-1",
+    "name": "Miguel Vargas",
+    "position": "Arquero",
+    "shirtNumber": 25,
+    "photo": "/players/universitario-1.webp",
+    "sourceUrl": "https://universitario.pe/equipos/futbol-masculino"
+  },
+  {
+    "id": "pe-uni-2",
+    "name": "Jhefferson Rodríguez",
+    "position": "Arquero",
+    "shirtNumber": 12,
+    "photo": "/players/universitario-2.webp",
+    "sourceUrl": "https://universitario.pe/equipos/futbol-masculino"
+  },
+  {
+    "id": "pe-uni-3",
+    "name": "Caín Fara",
+    "position": "Defensa",
+    "shirtNumber": 2,
+    "photo": "/players/universitario-3.webp",
+    "sourceUrl": "https://universitario.pe/equipos/futbol-masculino"
+  },
+  {
+    "id": "pe-uni-4",
+    "name": "Williams Riveros",
+    "position": "Defensa",
+    "shirtNumber": 3,
+    "photo": "/players/universitario-4.webp",
+    "sourceUrl": "https://universitario.pe/equipos/futbol-masculino"
+  },
+  {
+    "id": "pe-uni-5",
+    "name": "Anderson Santamaría",
+    "position": "Defensa",
+    "shirtNumber": 4,
+    "photo": "/players/universitario-5.webp",
+    "sourceUrl": "https://universitario.pe/equipos/futbol-masculino"
+  },
+  {
+    "id": "pe-uni-6",
+    "name": "Matías Di Benedetto",
+    "position": "Defensa",
+    "shirtNumber": 5,
+    "photo": "/players/universitario-6.webp",
+    "sourceUrl": "https://universitario.pe/equipos/futbol-masculino"
+  },
+  {
+    "id": "pe-uni-7",
+    "name": "Andy Polo",
+    "position": "Carrilero",
+    "shirtNumber": 24,
+    "photo": "/players/universitario-7.webp",
+    "sourceUrl": "https://universitario.pe/equipos/futbol-masculino"
+  }
+]

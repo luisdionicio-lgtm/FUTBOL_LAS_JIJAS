@@ -1,0 +1,47 @@
+{
+  "demo-PD-0": [
+    {
+      "id": "official-mbappe",
+      "name": "Kylian Mbappé",
+      "position": "Delantero",
+      "nationality": "Francia",
+      "shirtNumber": 10,
+      "dateOfBirth": "1998-12-20",
+      "goals": 12,
+      "assists": 2,
+      "played": 11,
+      "statsScope": "LaLiga 2026/27 · consulta 04/11/2026",
+      "sourceUrl": "https://www.laliga.com/en-GB/player/kylian-mbappe-lottin",
+      "photo": "/players/mbappe.png"
+    }
+  ],
+  "demo-BL1-0": [
+    {
+      "id": "official-kane",
+      "name": "Harry Kane",
+      "position": "Delantero",
+      "nationality": "Inglaterra",
+      "shirtNumber": 9,
+      "dateOfBirth": "1993-07-28",
+      "goals": 4,
+      "assists": 5,
+      "played": 8,
+      "statsScope": "Bundesliga 2026/27 · consulta 04/11/2026",
+      "sourceUrl": "https://www.bundesliga.com/de/spieler/harry-kane",
+      "photo": "/players/kane.png"
+    }
+  ],
+  "demo-PL-1": [
+    {
+      "id": "official-haaland",
+      "name": "Erling Haaland",
+      "position": "Delantero",
+      "nationality": "Noruega",
+      "shirtNumber": 9,
+      "dateOfBirth": "2000-07-21",
+      "statsScope": "Ficha oficial · consulta 04/11/2026",
+      "sourceUrl": "https://www.premierleague.com/en/players/223094/erling-haaland/overview",
+      "photo": "/players/haaland.png"
+    }
+  ]
+}

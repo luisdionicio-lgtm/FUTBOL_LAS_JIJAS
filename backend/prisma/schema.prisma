@@ -1,0 +1,97 @@
+generator client {
+ provider = "prisma-client-js"
+}
+datasource db {
+ provider = "postgresql"
+ url = env("DATABASE_URL")
+}
+model User {
+ id String @id @default(uuid())
+ email String @unique
+ name String
+ password String
+ role String @default("USER")
+ tokenVersion Int @default(0)
+ createdAt DateTime @default(now())
+ predictions Prediction[]
+ members RoomMember[]
+ resets PasswordReset[]
+}
+model League {
+ code String @id
+ name String
+ country String
+ emblem String?
+ season String @default("Sin sincronizar")
+ source String @default("demo")
+ syncedAt DateTime?
+ teams Team[]
+ matches Match[]
+}
+model Team {
+ id String @id
+ leagueCode String
+ league League @relation(fields:[leagueCode],references:[code])
+ name String
+ crest String?
+ data Json @default("{}")
+}
+model Match {
+ id String @id
+ leagueCode String
+ league League @relation(fields:[leagueCode],references:[code])
+ home Json
+ away Json
+ kickoff DateTime
+ status String @default("TIMED")
+ homeScore Int?
+ awayScore Int?
+ source String @default("demo")
+ predictions Prediction[]
+ @@index([kickoff,leagueCode])
+}
+model Prediction {
+ id String @id @default(uuid())
+ userId String
+ user User @relation(fields:[userId],references:[id])
+ matchId String
+ match Match @relation(fields:[matchId],references:[id])
+ home Int
+ away Int
+ createdAt DateTime @default(now())
+ updatedAt DateTime @updatedAt
+ points Int @default(0)
+ breakdown Json @default("{}")
+ evaluated Boolean @default(false)
+ @@unique([userId,matchId])
+}
+model Room {
+ id String @id @default(uuid())
+ name String
+ description String
+ ownerId String
+ code String @unique
+ createdAt DateTime @default(now())
+ members RoomMember[]
+}
+model RoomMember {
+ roomId String
+ userId String
+ room Room @relation(fields:[roomId],references:[id],onDelete:Cascade)
+ user User @relation(fields:[userId],references:[id])
+ @@id([roomId,userId])
+}
+model AuditLog {
+ id String @id @default(uuid())
+ actorId String
+ action String
+ data Json
+ createdAt DateTime @default(now())
+}
+model PasswordReset {
+ id String @id @default(uuid())
+ userId String
+ user User @relation(fields:[userId],references:[id])
+ tokenHash String @unique
+ expiresAt DateTime
+}
