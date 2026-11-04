@@ -29,3 +29,11 @@ Los resultados web no recalculan puntos de usuarios automáticamente: permanecen
 ## Verificación
 
 `node tests/current-data.mjs` valida año, fechas de resultados/próximos, duplicados, fuentes, conversión decimal, unicidad de casas y estructura de seis ligas. Esta prueba comprueba integridad de datos, no reemplaza la verificación editorial de las fuentes.
+
+## Identidad visual de las secciones
+
+Las vistas de actualidad comparten el sistema deportivo del dashboard: azul noche, azul eléctrico/cian y acentos violeta/dorado. Selector de seis ligas con logo, tarjetas de encuentros con ambos escudos, clasificación con escudo por club, líderes con retrato real y escudo del club, e iconos por tipo de mercado.
+
+El catálogo `frontend/public/data/section-icons.json` resuelve nombres alternativos del mismo club sin cambiar los datos publicados. Los archivos se guardan localmente para evitar depender del hotlink. La procedencia y cobertura se documentan en `docs/section-icon-sources.json`. Las imágenes conservan derechos de sus titulares.
+
+Si una foto no está disponible o falla al cargar, se muestra un icono de persona; si falta un escudo, un identificador neutral con iniciales. Ningún sustituto se presenta como fotografía o emblema oficial. Los logos de liga usan los recursos ya verificados del proyecto.

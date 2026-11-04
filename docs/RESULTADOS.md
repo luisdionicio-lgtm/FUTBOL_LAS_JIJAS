@@ -34,3 +34,7 @@ Revisión visual de escritorio a 1440×1000 completada: scrollWidth 1425, sin de
 ## Actualidad 2026 — consulta del 4 de noviembre
 
 Compilación frontend/backend aprobada. `tests/current-data.mjs` pasó: 60 partidos exclusivamente2026, 6 tablas/114filas y 6comparaciones/18cuotas. Se verificaron fuentes, fechas, duplicados, estructura, fotografías de líderes y conversión fraccionaria/decimal. Los tres archivos JSON servidos en localhost coinciden con la entrega. El test no prueba veracidad editorial ni sustituye las URLs de origen. No se repitió la prueba de carga: no cambió el backend. La revisión visual de esta ampliación no se ejecutó por navegador local deshabilitado en Work.
+
+## Diseño e identidades de Actualidad 2026
+
+Se aplicó el sistema visual deportivo a selector de ligas, partidos, tablas, líderes y mercados. Catálogo validado con114escudos reales locales y138alias; sin clubes faltantes en114filas y60encuentros. Diez alias de retratos de líderes verificados;20líderes únicos no tienen foto verificable y usan icono neutral marcado Sin foto. La prueba `tests/section-icons.mjs` valida archivos, cabeceras, fuentes y cobertura. Compilación aprobada. Revisión visual en navegador no realizada porque su uso local permanece deshabilitado en Work.

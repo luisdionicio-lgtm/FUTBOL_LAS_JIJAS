@@ -1,0 +1,9 @@
+import assert from 'node:assert/strict';import {readFile,stat} from 'node:fs/promises';
+const root='frontend/public';const get=async n=>JSON.parse(await readFile(root+'/data/'+n+'.json','utf8'));const icons=await get('section-icons'),tables=await get('tables-leaders'),matches=await get('matches-2026');
+const normalize=n=>n.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+const missingClubs=[],missingPlayers=[];
+for(const row of [...tables.leagues.flatMap(l=>l.standings.map(r=>({name:r.team}))),...matches.matches.flatMap(m=>[{name:m.home},{name:m.away}])])if(!icons.clubs[normalize(row.name)])missingClubs.push(row.name);
+for(const l of tables.leagues)for(const p of l.leaders)if(!p.photo&&!icons.players[normalize(p.name)])missingPlayers.push(p.name);
+for(const category of ['clubs','players'])for(const [key,item]of Object.entries(icons[category])){assert.equal(key,normalize(key));assert.ok(item.sourceUrl?.startsWith('https://'));assert.ok(item.src.startsWith('/'));const bytes=await readFile(root+item.src);assert.ok(bytes.length>100,'Empty image: '+item.src);assert.ok(bytes.subarray(0,4).equals(Buffer.from([137,80,78,71]))||bytes[0]===255&&bytes[1]===216||bytes.toString('ascii',0,4)==='RIFF'||bytes.toString('utf8',0,200).includes('<svg'),'Invalid image header: '+item.src);}
+for(const code of ['PL','PD','SA','BL1','FL1','PE1'])assert.ok((await stat(root+'/leagues/'+code+'.png')).size>100);
+const result={date:new Date().toISOString(),clubEntries:Object.keys(icons.clubs).length,playerEntries:Object.keys(icons.players).length,missingClubNames:[...new Set(missingClubs)],missingPlayerNames:[...new Set(missingPlayers)],note:'Missing identities render clearly labelled neutral icons, never fabricated official emblems.'};console.log(JSON.stringify(result,null,2));if(missingClubs.length)process.exitCode=1;
