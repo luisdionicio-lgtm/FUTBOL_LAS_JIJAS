@@ -24,3 +24,9 @@ Las pruebas iniciales lanzadas durante una reconstrucción fallaron por servicio
 ## Verificación visual
 
 Verificación en navegador completada: acceso de demo, guardado y edición de pronóstico (2–1 → 3–1), creación de sala e invitación con ranking, navegación de ligas a equipo y 17 fichas con 11 etiquetas XI y 6 de suplente. 204 imágenes locales con cabecera de archivo válida; ninguna imagen rota en las vistas inspeccionadas. Desktop 1280 px, móvil 390 px y 320 px; sin desbordamiento horizontal en las comprobaciones. Tema oscuro revisado a 320 px. Se corrigió la conservación de scroll al navegar. Capturas: dashboard-desktop.jpg, dashboard-mobile.jpg, team-mobile.jpg y mobile-320-dark.jpg.
+
+## Ajuste visual según maqueta — 4 de noviembre de 2026
+
+Se añadieron cabecera azul noche, fondos blanco hielo con acentos cian/violeta, botones con degradados azul/cian, violeta y rojo, paneles oscuros de ranking/reglas, escudos y tipografía mayores y cabecera móvil con marca centrada. Se conservan las fotos reales y las reglas de negocio. La portada indica la fecha actual en America/Lima y cada encuentro muestra (PER). Los seis encuentros de demostración pendientes se actualizaron a 5–7 de noviembre de 2026; siguen siendo simulados.
+
+Revisión visual de escritorio a 1440×1000 completada: scrollWidth 1425, sin desbordamiento horizontal. La comprobación móvil del rediseño no pudo finalizar porque el uso local del navegador se deshabilitó en los ajustes de Work. Los resultados responsive anteriores corresponden a la versión anterior. La compilación del rediseño se comprobó por separado.

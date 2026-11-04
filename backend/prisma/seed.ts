@@ -23,7 +23,7 @@ if(process.env.DEMO_MODE==='true'){
  const data={squad,sourceUrl:code==='PE1'?(j===0?'https://universitario.pe/equipos/futbol-masculino':'https://liga1.pe/club/alianza-lima/'):'',rosterSnapshot:squad.length?'2026-11-04':null};
  await db.team.upsert({where:{id:t.id},update:{crest:t.crest,data},create:{...t,leagueCode:code,data}});
  }
- await db.match.upsert({where:{id:`demo-${code}`},update:{home:teams[0],away:teams[1]},create:{id:`demo-${code}`,leagueCode:code,home:teams[0],away:teams[1],kickoff:new Date(Date.now()+(48+i*3)*3600000),source:'demo'}});
+ await db.match.upsert({where:{id:`demo-${code}`},update:{home:teams[0],away:teams[1]},create:{id:`demo-${code}`,leagueCode:code,home:teams[0],away:teams[1],kickoff:new Date(new Date(new Intl.DateTimeFormat('en-CA',{timeZone:'America/Lima',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())+'T20:00:00Z').getTime()+(24+Math.floor(i/2)*24+(i%2)*3)*3600000),source:'demo'}});
  }
  const participants=[['demo@lasjijas.local','Luis Dionicio'],['carlos@lasjijas.local','Carlos R. · demo'],['ana@lasjijas.local','Ana M. · demo'],['diego@lasjijas.local','Diego S. · demo']];
  for(const [email,name] of participants)await db.user.upsert({where:{email},update:{},create:{email,name,password}});
