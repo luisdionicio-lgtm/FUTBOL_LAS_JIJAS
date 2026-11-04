@@ -1,6 +1,7 @@
 import React,{useEffect,useState} from 'react';
 import {createRoot} from 'react-dom/client';
 import {Home,CalendarDays,Trophy,Users,ChartNoAxesCombined,Settings,Search,Bell,ChevronRight,ArrowUpRight,Plus,Target,Flame,Zap,Menu,X,Sun,Moon,LogOut,Shield,Check,Copy,ArrowRight,Goal,Crown,Send,UserRound,RefreshCw,Globe,Lock,Medal} from 'lucide-react';
+import './fonts.css';
 import './style.css';
 import './visual.css';
 import FootballInfo from './FootballInfo';

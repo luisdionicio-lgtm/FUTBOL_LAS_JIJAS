@@ -39,3 +39,7 @@ El catálogo `frontend/public/data/section-icons.json` resuelve nombres alternat
 Si una foto no está disponible o falla al cargar, se muestra un icono de persona; si falta un escudo, un identificador neutral con iniciales. Ningún sustituto se presenta como fotografía o emblema oficial. Los logos de liga usan los recursos ya verificados del proyecto.
 
 **Aclaración de alcance del usuario (04/11/2026):** no se utilizará AWS ni la API deportiva. La aplicación corre en Docker Desktop local y utiliza información consultada en la web con fuente y fecha. Las menciones anteriores a la API describen el adaptador inicial, no un requisito vigente ni un pendiente.
+
+## Contexto adicional y tipografía
+
+Se usan Plus Jakarta Sans para lectura y Barlow Condensed para títulos, servidas desde `/fonts/` sin depender de Google Fonts durante el uso. Licencias OFL y URLs originales incluidas. Los partidos muestran posición/puntos y forma G/E/P enlazada a sus resultados; la forma solo considera partidos presentes en esta consulta, hasta cinco, en orden cronológico. Las ligas resumen líder, ventaja sobre segundo, mayor diferencia de goles y goles/promedio en los resultados consultados. No se extrapolan a la temporada completa. Los nombres que no coinciden tras normalización se muestran sin posición vinculada en vez de asociar otro club.
